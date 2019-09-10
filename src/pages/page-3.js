@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../layout/layout-s"
+import Layout from "../layout/layout-m"
 import SEO from "../components/seo"
 
 const SecondPage = ({ data }) => (
-  <Layout data={data.landingSmall} text="Content">
+  <Layout data={data.landingMedium} text="Holzbau">
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
   </Layout>
@@ -15,10 +15,10 @@ export default SecondPage
 
 export const query = graphql`
   query {
-    landingSmall: file(relativePath: { eq: "lp-sm.jpg" }) {
+    landingMedium: file(relativePath: { eq: "lp-m.jpg" }) {
       childImageSharp {
         fluid(
-          maxWidth: 1500
+          maxWidth: 2500
           traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
