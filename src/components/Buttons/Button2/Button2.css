@@ -1,0 +1,106 @@
+.name {
+  font-weight: 700;
+  font-size: 0.8rem;
+  /*  transition: all 500ms ease-in-out; */
+}
+.setup {
+  display: block;
+  height: 20px;
+}
+.arrow {
+  margin-right: 10px;
+  height: 37px;
+}
+.arrow1 {
+  transition: all 500ms ease-in;
+}
+.arrow2 {
+  transition: all 500ms ease-in;
+}
+a:hover .arrow1 {
+  transform: translateY(10rem);
+}
+a:hover .arrow2 {
+  transform: translateY(15rem);
+}
+
+a:hover .name {
+  transform: translate(103%, 0%);
+}
+.setupanimationbg {
+  display: block;
+  position: relative;
+  margin: 0 -10px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.projects {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  border: 0;
+  background: 0 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  padding: 1em;
+  margin: -1em;
+  overflow: visible;
+}
+.animationbackground {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateX(-103%);
+  transform: translateX(-103%);
+  transition: all 500ms ease-in-out;
+}
+a:hover .animationbackground {
+  transform: translate(-30%, 0%) matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*@keyframes mymove {
+        50% {transform: translate(-30%, 0%)}
+        100% {transform: translate(103%, 0%)}
+    }*/
+
+/*
+.setupanimationbg {
+    background-color: rgba(0,0,0,.1);
+    transition: background-color 500ms ease-in-out,
+                transform 500ms ease-in-out;
+}
+a:hover .setupanimationbg {
+    transform: translateX(150px, 50px)
+}
+
+
+
+.animationbackground {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1); // #ffdf59
+    position: absolute;
+    display: block;
+    transition: all 300ms ease-in-out;
+}
+
+.setupanimationbg {
+    display: block;
+    position: relative;
+    padding-left: 0;
+    padding-right: 25px;
+    overflow: hidden;
+}
+*/

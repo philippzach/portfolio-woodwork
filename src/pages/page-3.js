@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const SecondPage = ({ data }) => (
   <Layout data={data.landingMedium} text="Holzbau">
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
+    <h1>Hi from the third page</h1>
   </Layout>
 )
 

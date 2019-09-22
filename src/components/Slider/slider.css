@@ -1,0 +1,21 @@
+button.slick-arrow.slick-next {
+  display: none !important;
+}
+.slick-slide.slick-active.slick-center.slick-current {
+  /* transform: scale(1.25); */
+  animation: 400ms ease-in scale;
+  animation-fill-mode: forwards;
+}
+@media (min-width: 570px) and (max-width: 1000px) {
+  .slick-slider.center.slick-initialized {
+    max-width: 100%;
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}

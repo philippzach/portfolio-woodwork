@@ -1,5 +1,5 @@
 import React from "react"
-import Navigation from "./navigation"
+import Navigation from "./nav/navigation"
 import Footer from "./footer"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
@@ -13,6 +13,20 @@ const GreenBlock = styled.div`
   width: 50%;
   left: 50%;
   top: 300px;
+  @media (max-width: 560px) {
+    top: 100px;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+  }
+`
+const Heading = styled.h1`
+  font-family: futura;
+  font-weight: 800;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-bottom: 0;
 `
 
 const Layout = ({ children, data }) => {
@@ -21,20 +35,13 @@ const Layout = ({ children, data }) => {
       <Navigation />
       <Img fluid={data.landing.childImageSharp.fluid} />
       <GreenBlock>
-        <h1>
-          Just Imagine
+        <Heading>
+          Gelebte Innovation
           <br />
-          We do the rest
-        </h1>
+          mit Holz
+        </Heading>
       </GreenBlock>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <div>
         <main>{children}</main>
         <Footer />
       </div>

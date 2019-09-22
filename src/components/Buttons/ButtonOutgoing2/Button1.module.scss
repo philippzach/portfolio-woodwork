@@ -1,0 +1,35 @@
+
+.setup {
+    display: inline-flex;
+    align-items: center;
+}
+.arrow {
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+}
+a:hover .arrow {
+    transform: matrix(1, 0, 0, 1, -20, 0)
+}
+.animationbackground {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1); // #ffdf59
+    position: absolute;
+    display: block;
+    transition: all 300ms ease-in-out;
+}
+
+.setupanimationbg {
+    display: block;
+    position: relative;
+    padding-left: 0;
+    padding-right: 25px;
+    overflow: hidden;
+}
+.name {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+a:hover .animationbackground {
+    transform: translate(103%, 0%) matrix(1, 0, 0, 1, 0, 0);
+}

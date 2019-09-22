@@ -1,0 +1,102 @@
+#imageanimation img {
+  animation-name: FadeInOut;
+  animation-timing-function: ease;
+  animation-duration: 10.5s;
+  animation-iteration-count: infinite;
+}
+#imageanimation img:nth-of-type(1) {
+  animation-delay: 7s;
+}
+#imageanimation img:nth-of-type(2) {
+  animation-delay: 3.5s;
+}
+#imageanimation img:nth-of-type(3) {
+  animation-delay: 0s;
+}
+#numberanimation {
+  animation-name: MoveNumbers;
+  animation-timing-function: ease;
+  animation-duration: 10.5s;
+  animation-iteration-count: infinite;
+}
+#numberanimation span {
+  animation-name: FadeNumber;
+  animation-timing-function: ease;
+  animation-duration: 10.5s;
+  animation-iteration-count: infinite;
+}
+#numberanimation span:nth-of-type(1) {
+  animation-delay: 0s;
+}
+#numberanimation span:nth-of-type(2) {
+  animation-delay: 3.5s;
+}
+#numberanimation span:nth-of-type(3) {
+  animation-delay: 7s;
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  28.5% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes MoveNumbers {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  28% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  33% {
+    transform: translate3d(0px, -39px, 0px);
+  }
+  58% {
+    transform: translate3d(0px, -39px, 0px);
+  }
+  66% {
+    transform: translate3d(0px, -78px, 0px);
+  }
+  95% {
+    transform: translate3d(0px, -78px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+@keyframes FadeNumber {
+  0% {
+    opacity: 1;
+  }
+  28.5% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* span.artificiallink svg {
+  transform: translate(20px, 6px);
+}
+.hoverlink:hover span svg {
+  transform: translate(50px, 6px);
+}
+ */

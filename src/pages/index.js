@@ -1,17 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Slider from "../components/Slider/slick-slider-thin"
+import SliderCenter from "../components/Slider/slick-slider-center"
+import AnimationLeft from "../components/Animation/Left"
 
 import Layout from "../layout/layout-lp"
-import Image from "../components/image"
+
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => (
   <Layout data={data}>
     <SEO title="Holzbau" />
-    <h1>Hi people</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <h1>Hi, from the first Page</h1>
+    <Slider />
+    <SliderCenter />
+    <AnimationLeft />
   </Layout>
 )
 
