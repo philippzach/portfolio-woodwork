@@ -191,48 +191,6 @@ export default class Left extends Component {
                 handwerklichem Können nach individuellen Vorgaben.
               </Paragraph>
               <Button1 name="Die Schreinerei" />
-
-              {/* <ArtificialLink className="artificiallink">
-                Unsere Produkte
-                <svg width="100px" height="25px" viewBox="0 0 129 25">
-                  <g
-                    id="Page-1"
-                    stroke="none"
-                    stroke-width="1"
-                    fill="none"
-                    fill-rule="evenodd"
-                  >
-                    <g
-                      id="Wohlgensinger---Landing-Page"
-                      transform="translate(-471.000000, -2614.000000)"
-                      stroke="#7E7E7E"
-                    >
-                      <g
-                        id="Group"
-                        transform="translate(535.500000, 2626.500000) scale(-1, -1) rotate(-90.000000) translate(-535.500000, -2626.500000) translate(523.000000, 2563.000000)"
-                      >
-                        <g
-                          id="Group-5"
-                          transform="translate(12.500000, 63.500000) scale(1, -1) translate(-12.500000, -63.500000) translate(0.500000, 0.000000)"
-                        >
-                          <path
-                            d="M12,0.5 L12,124.5"
-                            id="Line-5"
-                            stroke-width="3"
-                            stroke-linecap="square"
-                          ></path>
-                          <path
-                            d="M7.13374451,101.845919 C7.52847697,101.384694 8.14991387,101.384694 8.54464633,101.845919 C8.92604323,102.291563 8.92604323,103.033264 8.54464633,103.477869 L1.39056509,111.837067 L24.9980552,111.837067 C25.5483692,111.837067 26,112.348155 26,112.99117 C26,113.634185 25.5483692,114.161894 24.9980552,114.161894 L1.39056509,114.161894 L8.54464633,122.50551 C8.92604323,122.966736 8.92604323,123.709476 8.54464633,124.154081 C8.14991387,124.615306 7.52847697,124.615306 7.13374451,124.154081 L-1.71395233,113.815975 C-2.09534922,113.370331 -2.09534922,112.62863 -1.71395233,112.184025 L7.13374451,101.845919 Z"
-                            id="Fill-1"
-                            fill="#7E7E7E"
-                            transform="translate(12.000000, 113.000000) scale(-1, -1) rotate(90.000000) translate(-12.000000, -113.000000) "
-                          ></path>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-              </ArtificialLink> */}
             </TextContainer>
             <ImageContainer>
               <AnimationContainer id="imageanimation">

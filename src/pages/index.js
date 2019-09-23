@@ -11,10 +11,10 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout data={data}>
     <SEO title="Holzbau" />
-    <h1>Hi, from the first Page</h1>
+
     <Slider />
-    <SliderCenter />
     <AnimationLeft />
+    <SliderCenter />
   </Layout>
 )
 
