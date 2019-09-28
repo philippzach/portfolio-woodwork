@@ -11,11 +11,17 @@ const ButtonsLeft = styled.div`
   display: grid;
   grid-template-columns: 50px;
   grid-template-rows: 50px;
-  top: 50%;
+  bottom: 12.5%;
   left: 33%;
   margin-top: 25px;
-  @media (max-width: 569px) {
+  @media (max-width: 600px) {
     left: 10%;
+  }
+  @media (min-width: 601px) and (max-width: 800px) {
+    bottom: 7.5%;
+  }
+  @media (min-width: 801px) and (max-width: 1000px) {
+    bottom: 9.5%;
   }
 `
 const ButtonsRight = styled.div`
@@ -23,11 +29,17 @@ const ButtonsRight = styled.div`
   display: grid;
   grid-template-columns: 50px;
   grid-template-rows: 50px;
-  top: 50%;
+  bottom: 12.5%;
   right: 33%;
   margin-top: 25px;
-  @media (max-width: 569px) {
+  @media (max-width: 600px) {
     right: 10%;
+  }
+  @media (min-width: 601px) and (max-width: 800px) {
+    bottom: 7.5%;
+  }
+  @media (min-width: 801px) and (max-width: 1000px) {
+    bottom: 9.5%;
   }
 `
 const BoxPrevious = styled.div`
@@ -60,13 +72,25 @@ const Image = styled.img`
 `
 const TestamonialContainer = styled.div`
   background-color: white;
+  margin-top: 4em;
 `
 const InsideTest = styled.div`
   background-color: #fcf1e8;
   max-width: 90%;
   margin: 0 auto;
+  text-align: center;
+  color: #636363;
+  padding: 1.45em 1em 0;
 `
-
+const Paragraph = styled.p`
+  font-family: futura;
+  font-style: italic;
+  max-width: 45em;
+  margin: 0 auto;
+  line-height: 1.75em;
+  padding-bottom: 2em;
+  font-size: 0.8em;
+`
 export default class CenterMode extends Component {
   constructor(props) {
     super(props)
@@ -122,14 +146,97 @@ export default class CenterMode extends Component {
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
         </Helmet>
-        <h2 style={{ textAlign: "center" }}>Testimonial Slider</h2>
+
         <Slider
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
           <TestamonialContainer>
             <InsideTest>
-              <h3>1</h3>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-706.000000, -4635.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="“">
+                      <tspan x="704" y="4666">
+                        “
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>
+                Wir möchten uns bei dir und deiner Belegschaft herzlich bedanken
+                für die tolle Arbeit, welche bereits im Vorfeld und ganz
+                besonders am heutigen Tag bei uns ausgeführt wurde. Du hast ein
+                tolles Team nach Dübendorf geschickt, welches miteinander die
+                Aufgaben anpackt und sehr speditiv vorankommt. Ein besonderer
+                Dank gilt Florian Senn, der aus unserer Sicht den Bau voll im
+                Griff hat und vor allem auch über die „Systemgrenzen“ hinaus
+                schaut und auf allfällige Probleme hinweisen kann.
+              </Paragraph>
+              <Paragraph>
+                Wir waren erstaunt über die Präzision der Bauteile und die
+                perfekten Anschlüsse ans bestehende Haus. Leite bitte diesen
+                Dank an deine Leute weiter. Gerne werden wir euch
+                weiterempfehlen.
+              </Paragraph>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-709.000000, -5180.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="”">
+                      <tspan x="707" y="5211">
+                        ”
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>
+                Patrik und Cornelia Morf{" "}
+                <Paragraph>Frickenstrasse 11 8600 Dübendorf</Paragraph>
+                <Paragraph> 043 819 12 78 | 079 516 08 03</Paragraph>{" "}
+                <Paragraph> pc.morf@datacomm.ch</Paragraph>
+              </Paragraph>
             </InsideTest>
           </TestamonialContainer>
           <TestamonialContainer>

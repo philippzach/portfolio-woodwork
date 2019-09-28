@@ -9,24 +9,64 @@ import "./layout.css"
 
 const ColorBox = styled.div`
   position: absolute;
-  background-color: rgba(87, 188, 110, 0.9);
+  background-color: ${props => props.bgcolor};
   width: 60%;
   left: 40%;
   top: 300px;
 `
+
 const WhiteText = styled.h1`
   color: white;
+  font-family: futura;
+  font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  text-shadow: rgba(0, 0, 0, 0.24) 0 2px 4px;
+  margin-bottom: initial;
+  padding: 1em;
+  align-items: center;
+  display: flex;
 `
 
-const LayoutMedium = ({ children, data, text }) => {
+const LayoutMedium = ({ children, data, text, color }) => {
   return (
     <header>
       <Navigation />
       <Img fluid={data.childImageSharp.fluid} />
-      <ColorBox>
-        <WhiteText>{text}</WhiteText>
+      <ColorBox bgcolor={color}>
+        <WhiteText>
+          {text}
+          <svg
+            style={{ marginLeft: "1em" }}
+            width="66px"
+            height="3px"
+            viewBox="0 0 66 3"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+              stroke-linecap="square"
+            >
+              <g
+                id="Holzbau"
+                transform="translate(-1088.000000, -325.000000)"
+                stroke="#FFFFFF"
+                stroke-width="2"
+              >
+                <path
+                  d="M1120.5,294 L1120.5,357.5"
+                  id="Line-5"
+                  transform="translate(1121.000000, 326.000000) rotate(-90.000000) translate(-1121.000000, -326.000000) "
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </WhiteText>
       </ColorBox>
       <div>
         <main>{children}</main>

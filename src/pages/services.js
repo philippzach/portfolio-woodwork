@@ -1,20 +1,21 @@
 import React from "react"
+import { graphql } from "gatsby"
 
 import Layout from "../layout/layout-s"
 import SEO from "../components/seo"
 
-const SecondPage = ({ data }) => (
-  <Layout data={data.landingSmall} text="Content">
+const Services = ({ data }) => (
+  <Layout data={data.landingSmall} text="Services">
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
   </Layout>
 )
 
-export default SecondPage
+export default Services
 
 export const query = graphql`
   query {
-    landingSmall: file(relativePath: { eq: "lp-sm.jpg" }) {
+    landingSmall: file(relativePath: { eq: "services.jpg" }) {
       childImageSharp {
         fluid(
           maxWidth: 1500

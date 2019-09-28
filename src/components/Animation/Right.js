@@ -1,13 +1,14 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import "./animation.css"
 import Button1 from "../Buttons/Button1/Button1"
 
-import IconSchreinerei from "../../images/icon-schreinerei.svg"
-import Slide1 from "../../images/s-slide1.jpg"
-import Slide2 from "../../images/s-slide2.jpg"
-import Slide3 from "../../images/s-slide3.jpg"
+import IconSchreinerei from "../../images/icon-holzbau.svg"
+import Slide1 from "../../images/hb-slide1.jpg"
+import Slide2 from "../../images/hb-slide2.jpg"
+import Slide3 from "../../images/hb-slide3.jpg"
 
 const BoxContainer = styled.div`
   position: relative;
@@ -55,12 +56,16 @@ const Paragraph = styled.p`
 `
 
 const BackgroundContainer = styled.div`
-  background-color: #c5a694;
+  background-color: #f3e3d9;
   margin: 4.5em;
   position: relative;
   z-index: 0;
   @media (max-width: 999px) {
     margin: 4.5em 0em calc(4.5em + 400px) 4.5em;
+  }
+  @media (min-width: 1000px) {
+    display: flex;
+    justify-content: flex-end;
   }
 `
 
@@ -78,14 +83,16 @@ const TextContainer = styled.div`
     padding-left: 4em;
   }
   @media (min-width: 1300px) {
-    padding-left: 6em;
+    padding-right: 6em;
+    padding-left: 0;
   }
   @media (min-width: 1600px) {
     padding-left: 10em;
     max-width: 42em;
   }
   @media (min-width: 2000px) {
-    padding-left: 17em;
+    padding-right: 17em;
+    padding-left: 0;
     max-width: 50em;
   }
 `
@@ -93,35 +100,35 @@ const ImageContainer = styled.div`
   position: absolute;
   height: 400px;
   width: 100%;
-  right: -4.5em;
-  bottom: -2em;
   z-index: 0;
+  left: -4.5em;
+  bottom: -2em;
   @media (max-width: 999px) {
     right: 0em;
-    bottom: initial;
+    bottom: -400px;
     width: initial;
     left: -4.5em;
   }
   @media (min-width: 1200px) {
-    right: 0em;
+    left: -4.5em;
   }
   @media (min-width: 1300px) {
-    right: 2em;
+    left: -4.5em;
   }
   @media (min-width: 1400px) {
-    right: 4em;
+    left: 4em;
   }
   @media (min-width: 1500px) {
-    right: 5em;
+    left: 5em;
   }
   @media (min-width: 1600px) {
-    right: 6em;
+    left: 6em;
   }
   @media (min-width: 1800px) {
-    right: 8em;
+    left: 8em;
   }
   @media (min-width: 2000px) {
-    right: 14em;
+    left: 14em;
   }
 `
 const AnimationContainer = styled.div`
@@ -129,7 +136,6 @@ const AnimationContainer = styled.div`
 `
 const Image = styled.img`
   position: absolute;
-  right: 0;
 `
 const ArtificialLink = styled.span`
   font-family: roboto;
@@ -179,19 +185,6 @@ export default class Left extends Component {
             </NumbersBox>
           </NumberBox>
           <BackgroundContainer>
-            <TextContainer>
-              <img src={IconSchreinerei} alt="icon schreinerei passgenau" />
-              <TopHeading>Passgenau und Maßgeschneidert</TopHeading>
-              <Heading>Schreinerei</Heading>
-              <Paragraph>
-                Wenn Sie auf der Suche nach Türen, Treppen, Schränke und Möbel
-                nach Mass sind, dann sind Sie bei uns genau richtig. Wir setzen
-                Ihre Vorstellungen in die Tat um und unsere Möbelschreiner
-                fertigen Ihre Möbelstücke mit viel Leidenschaft und
-                handwerklichem Können nach individuellen Vorgaben.
-              </Paragraph>
-              <Button1 name="Zur Schreinerei" />
-            </TextContainer>
             <ImageContainer>
               <AnimationContainer id="imageanimation">
                 <Image src={Slide1} alt="Schreinerei" height="400px" />
@@ -199,6 +192,20 @@ export default class Left extends Component {
                 <Image src={Slide3} alt="Schreinerei" height="400px" />
               </AnimationContainer>
             </ImageContainer>
+            <TextContainer>
+              <img src={IconSchreinerei} alt="icon schreinerei passgenau" />
+              <TopHeading>Individuell und Ökologisch</TopHeading>
+              <Heading>Holzbau</Heading>
+              <Paragraph>
+                Wir sind Ihr Holzbauer für die individuelle Aufstockung sowie
+                den Umbau, Anbau oder Neubau. Unsere innovativen und kompetenten
+                Bauleiter und Zimmerleute arbeiten Ihren Wünschen und Angaben
+                entsprechend zuverlässig und mit viel Gespür für den lebendigen
+                Rohstoff Holz. handwerklichem Können nach individuellen
+                Vorgaben.
+              </Paragraph>
+              <Button1 name="Zum Holzbau" />
+            </TextContainer>
           </BackgroundContainer>
         </BoxContainer>
       </Link>

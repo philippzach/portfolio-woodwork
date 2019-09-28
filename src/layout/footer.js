@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import styled from "@emotion/styled"
 
 const FooterBg = styled.footer`
@@ -44,16 +45,16 @@ const Footer = () => (
       <Grid>
         <Other>
           <span></span>
-          <span>Über uns</span>
-          <span>Services</span>
-          <span>News</span>
-          <span>Kontakt</span>
+          <Link to="/ueber-uns">Über uns</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/blog">News</Link>
+          <Link to="/kontakt">Kontakt</Link>
           <span></span>
         </Other>
         <Other>
-          <span>
+          <Link to="/holzbau">
             <b>Holzbau</b>
-          </span>
+          </Link>
           <span>Aufstockung</span>
           <span>Umbau</span>
           <span>Anbau</span>
@@ -61,9 +62,9 @@ const Footer = () => (
           <span>Service</span>
         </Other>
         <Other>
-          <span>
+          <Link to="/schreinerei">
             <b>Schreinerei</b>
-          </span>
+          </Link>
           <span>Türen</span>
           <span>Treppen</span>
           <span>Schränke</span>

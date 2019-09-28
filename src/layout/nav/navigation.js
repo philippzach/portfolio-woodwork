@@ -143,7 +143,9 @@ class Navigation extends Component {
           }}
         >
           <Mobile>
-            <ML src={MobileLogo} alt="Wohlgensinger Mobile Logo" />
+            <Link to="/">
+              <ML src={MobileLogo} alt="Wohlgensinger Mobile Logo" />
+            </Link>
             <svg
               onClick={() => this.handleMouseDown()}
               onAnimationEnd={() => this.setState({ animate: false })}
@@ -176,11 +178,17 @@ class Navigation extends Component {
           </Mobile>
 
           <Grid>
-            <LogoImg src={Logo} alt="Wohlgensinger AG Logo" className="logo" />
+            <Link to="/">
+              <LogoImg
+                src={Logo}
+                alt="Wohlgensinger AG Logo"
+                className="logo"
+              />
+            </Link>
             <List>
               <li className="firstli" style={{ margin: 0 }}>
                 <Link
-                  to="/"
+                  to="/holzbau"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -188,10 +196,10 @@ class Navigation extends Component {
                   Holzbau &#9662;
                 </Link>
                 <ul className="secondul">
-                  <Link to="/">
+                  <Link to="/holzbau/aufstockung">
                     <li>Aufstockung</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/holzbau/umbau">
                     <li>Umbau</li>
                   </Link>
                   <Link to="/">
@@ -207,7 +215,7 @@ class Navigation extends Component {
               </li>
               <li className="firstli" style={{ margin: 0 }}>
                 <Link
-                  to="/page-2"
+                  to="/schreinerei"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -234,17 +242,17 @@ class Navigation extends Component {
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to="/page-3"
+                  to="/services"
                   style={{
                     textDecoration: `none`,
                   }}
                 >
-                  Service
+                  Services
                 </Link>
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to="/page-3"
+                  to="/kontakt"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -266,7 +274,7 @@ class Navigation extends Component {
         >
           <MobileList>
             <Link
-              to="/"
+              to="/holzbau"
               style={{
                 textDecoration: `none`,
               }}
@@ -274,7 +282,7 @@ class Navigation extends Component {
               Holzbau
             </Link>
             <Link
-              to="/"
+              to="/schreinerei"
               style={{
                 textDecoration: `none`,
               }}
@@ -282,15 +290,15 @@ class Navigation extends Component {
               Schreinerei
             </Link>
             <Link
-              to="/"
+              to="/services"
               style={{
                 textDecoration: `none`,
               }}
             >
-              Service
+              Services
             </Link>
             <Link
-              to="/"
+              to="/kontakt"
               style={{
                 textDecoration: `none`,
               }}
