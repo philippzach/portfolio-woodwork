@@ -1,0 +1,20 @@
+
+<svg width="27px" height="25px" viewBox="0 0 27 25" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    <defs>
+        <path d="M644.903263,1071.06814 C644.818686,1070.99642 644.698324,1070.97979 644.59631,1071.02553 L626.164343,1079.30478 C626.065111,1079.34937 626.00121,1079.44508 626,1079.55085 C625.998824,1079.65661 626.060624,1079.75364 626.15889,1079.80026 L631.375113,1082.27505 C631.470766,1082.32046 631.584823,1082.31019 631.670252,1082.24847 L636.741842,1078.58395 L632.76042,1082.54313 C632.703619,1082.59964 632.67465,1082.67701 632.680898,1082.75553 L633.077314,1087.74647 C633.086118,1087.85706 633.162799,1087.95162 633.271801,1087.98627 C633.30094,1087.9955 633.330874,1088 633.360468,1088 C633.441636,1088 633.52059,1087.96634 633.575517,1087.90484 L636.34412,1084.80327 L639.766675,1086.3842 C639.840971,1086.41852 639.926968,1086.41995 640.002457,1086.38821 C640.077946,1086.35642 640.135429,1086.29459 640.16008,1086.2187 L644.986931,1071.35681 C645.020671,1071.25303 644.987783,1071.13986 644.903263,1071.06814 Z" id="path-1"></path>
+        <filter x="-36.8%" y="-29.4%" width="173.7%" height="182.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-622.000000, -1069.000000)">
+            <g id="Fill-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" ></use>
+            </g>
+        </g>
+    </g>
+</svg>

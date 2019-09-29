@@ -145,7 +145,7 @@ const ArtificialLink = styled.span`
 export default class Left extends Component {
   render() {
     return (
-      <Link to="/page-2">
+      <Link to="/holzbau">
         <BoxContainer className="hoverlink">
           <NumberBox>
             <LineBox>

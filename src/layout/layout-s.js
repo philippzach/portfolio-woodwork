@@ -25,11 +25,11 @@ const LayoutSmall = ({ children, data, text }) => {
   return (
     <header>
       <Navigation />
+
       <Img fluid={data.childImageSharp.fluid} />
       <TextBox>
         <WhiteText>{text}</WhiteText>
       </TextBox>
-
       <main>{children}</main>
       <Footer />
     </header>

@@ -72,7 +72,8 @@ const Mobile = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em;
+  padding: 0.45em;
+  padding-top: 1,45em;
   @media (min-width: 669px) {
     display: none;
   }
@@ -92,7 +93,9 @@ const MobileList = styled.div`
   }
 `
 
-const ML = styled.img``
+const ML = styled.img`
+height: 40px;
+`
 const MM = styled.img`
   cursor: pointer;
 `
@@ -143,7 +146,7 @@ class Navigation extends Component {
           }}
         >
           <Mobile>
-            <Link to="/">
+            <Link to="/" style={{display: "flex"}}>
               <ML src={MobileLogo} alt="Wohlgensinger Mobile Logo" />
             </Link>
             <svg
@@ -202,13 +205,13 @@ class Navigation extends Component {
                   <Link to="/holzbau/umbau">
                     <li>Umbau</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/holzbau/anbau">
                     <li>Anbau</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/holzbau/neubau">
                     <li>Neubau | Ersatzneubau</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/holzbau/service">
                     <li>Service</li>
                   </Link>
                 </ul>
@@ -223,19 +226,19 @@ class Navigation extends Component {
                   Schreinerei &#9662;
                 </Link>
                 <ul className="secondul">
-                  <Link to="/">
+                  <Link to="/schreinerei/tueren">
                     <li>Türen</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/schreinerei/treppen">
                     <li>Treppen</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/schreinerei/schraenke">
                     <li>Schränke</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/schreinerei/reperaturen">
                     <li>Reperaturen</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/schreinerei/moebel-weingestell">
                     <li>Weingestell | Möbel</li>
                   </Link>
                 </ul>
