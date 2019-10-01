@@ -51,7 +51,7 @@ const Grid = styled.div`
 
 const Schreinerei = ({ data }) => (
   <Layout data={data.landing} text="Schreinerei" color="#B7A07C">
-    <SEO title="Page two" />
+    <SEO title="Schreinerei" />
     <Container>
       <Background>
         <Left>

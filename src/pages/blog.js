@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const Blog = ({ data }) => (
   <Layout data={data.landingSmall} text="Blog/News">
-    <SEO title="Page two" />
+    <SEO title="Blog" />
     <h1>Hi from the second page</h1>
   </Layout>
 )

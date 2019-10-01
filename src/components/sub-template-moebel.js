@@ -3,12 +3,13 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import Cta from "../components/cta"
+import SEO from "../components/seo"
 
 import Layout from "../layout/layout-s"
 
 const Container = styled.div`
   display: flex;
-  background-color: #F3E3D9;
+  background-color: #f3e3d9;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2em;
@@ -64,7 +65,7 @@ const TextContainer = styled.div`
 `
 
 const Spacer = styled.div`
-padding: 2em 0;
+  padding: 2em 0;
 `
 
 export default class subTemplate2 extends Component {
@@ -72,6 +73,7 @@ export default class subTemplate2 extends Component {
     return (
       <div>
         <Layout data={this.props.header} text="">
+          <SEO title={this.props.headerText} />
           <Container>
             <Left>
               <TextContainer>
@@ -90,13 +92,12 @@ export default class subTemplate2 extends Component {
           <Spacer />
           <Container>
             <Left2>
-            <Img
+              <Img
                 fluid={this.props.select2.childImageSharp.fluid}
                 alt={this.props.headerText2 + " " + "photo"}
               />
             </Left2>
             <Right2>
-              
               <TextContainer>
                 <Header>{this.props.headerText2}</Header>
                 <Paragraph>{this.props.paragraph2}</Paragraph>

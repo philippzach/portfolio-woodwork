@@ -42,7 +42,7 @@ const Meeting = styled.h2`
 
 const Kontakt = ({ data }) => (
   <Layout data={data.landingSmall} text="">
-    <SEO title="Page two" />
+    <SEO title="Kontakt" />
     <Text>
       <Heading>Kontakt</Heading>
       <Phone>
@@ -311,10 +311,7 @@ const Kontakt = ({ data }) => (
       </svg>
       <Meeting>oder ein Meeting im HQ vereinbaren?</Meeting>
       <Buttons>
-        <button className="meeting">
-         
-          Meeting Vereinbaren
-        </button>
+        <button className="meeting">Meeting Vereinbaren</button>
       </Buttons>
     </Text>
   </Layout>

@@ -3,12 +3,13 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import Cta from "../components/cta"
+import SEO from "../components/seo"
 
 import Layout from "../layout/layout-s"
 
 const Container = styled.div`
   display: flex;
-  background-color: #F3E3D9;
+  background-color: #f3e3d9;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 2em;
@@ -49,6 +50,7 @@ export default class subTemplate2 extends Component {
     return (
       <div>
         <Layout data={this.props.header} text="">
+          <SEO title={this.props.headerText} />
           <Container>
             <Left>
               <TextContainer>

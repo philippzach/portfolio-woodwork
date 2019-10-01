@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import Cta from "../components/cta"
+import SEO from "../components/seo"
 
 import Layout from "../layout/layout-s"
 
@@ -45,6 +46,7 @@ export default class subTemplate extends Component {
     return (
       <div>
         <Layout data={this.props.header} text="">
+          <SEO title={this.props.headerText} />
           <Container>
             <Left>
               <TextContainer>
