@@ -1,10 +1,14 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styled from "@emotion/styled"
-import Pic1 from "../../images/testhouse1.jpg"
-import Pic2 from "../../images/testhouse2.jpg"
-import Pic3 from "../../images/testhouse3.jpg"
-import Pic4 from "../../images/testhouse4.jpg"
+import Pic1 from "../../images/slide-thin1.jpg"
+import Pic2 from "../../images/slide-thin2.jpg"
+import Pic3 from "../../images/slide-thin3.jpg"
+import Pic4 from "../../images/slide-thin4.jpg"
+import Pic5 from "../../images/slide-thin5.jpg"
+import Pic6 from "../../images/slide-thin6.jpg"
+import Pic7 from "../../images/slide-thin7.jpg"
+import Pic8 from "../../images/slide-thin8.jpg"
 import { Helmet } from "react-helmet"
 import Left from "../../images/arrowleft.svg"
 import Right from "../../images/arrowright.svg"
@@ -109,6 +113,18 @@ export default class Responsive extends Component {
           </div>
           <div key={4}>
             <img src={Pic4} />
+          </div>
+          <div key={5}>
+            <img src={Pic5} />
+          </div>
+          <div key={6}>
+            <img src={Pic6} />
+          </div>
+          <div key={7}>
+            <img src={Pic7} />
+          </div>
+          <div key={8}>
+            <img src={Pic8} />
           </div>
         </Slider>
         <Buttons>

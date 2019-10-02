@@ -246,7 +246,7 @@ const About = ({ data }) => (
           />
         </Fifty>
         <FiftyFlexCenterText>
-          <Heading>Passion für das Holz</Heading>
+          <Heading>Passion für Holz</Heading>
           <Paragraph>
             Harz fließt durch unsere Adern. Wir lieben das Holzhandwerk und
             leben die Zimmermanns-Tradition.
