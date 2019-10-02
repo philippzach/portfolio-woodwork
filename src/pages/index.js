@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Slider from "../components/Slider/slick-slider-thin"
 import SliderCenter from "../components/Slider/slick-slider-center"
-import AnimationLeft from "../components/Animation/Left"
+import AnimationS from "../components/Animation/Left"
 import AnimationHB from "../components/Animation/Right"
 import Cta from "../components/cta"
 import BoxGrid from "../components/boxgrid"
@@ -30,12 +30,13 @@ const IndexPage = ({ data }) => (
     <SEO title="Holzbau" />
     <Slider />
     <AnimationHB data={data} />
-    <AnimationLeft />
-    <Cta />
-    {/*
-    <BoxGrid data={data} />
-    <SliderCenter />
-    <Cta /> */}
+    <AnimationS />
+    <section>
+      <Cta />
+      <BoxGrid data={data} />
+      <SliderCenter />
+      <Cta />
+    </section>
   </Layout>
 )
 
