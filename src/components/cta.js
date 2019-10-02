@@ -17,10 +17,10 @@ const Paragraph = styled.p`
 `
 const Cta = () => (
   <Container>
-    <Heading>Kontaktieren Sie Uns!</Heading>
-    <Paragraph>Telefonat abmachen | Meeting vereinbaren</Paragraph>
+    <Heading>Jetzt unvebindlich mit uns austauschen.</Heading>
+    <Paragraph>Telefonat oder Meeting vereinbaren</Paragraph>
     <Link to="/kontakt">
-      <button className="mainbutton">Jetzt kostenlos Anfragen</button>
+      <button className="mainbutton">Kontaktieren Sie uns!</button>
     </Link>
   </Container>
 )

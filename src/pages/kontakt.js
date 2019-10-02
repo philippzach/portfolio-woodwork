@@ -48,7 +48,7 @@ const Kontakt = ({ data }) => (
       <Phone>
         <a href="tel:+41(0)719831520">+41 (0)71 983 15 20</a>
       </Phone>
-      <Hours>Mon - Fri 08:00 - 20:00</Hours>
+      <Hours>Montag bis Freitag von 08:00 bis 17:00</Hours>
       <Buttons>
         <button className="call">
           <svg
@@ -120,7 +120,7 @@ const Kontakt = ({ data }) => (
               </g>
             </g>
           </svg>
-          Jetzt Anrufen
+          Jetzt anrufen
           <svg
             className="call-right"
             width="18px"
@@ -309,9 +309,12 @@ const Kontakt = ({ data }) => (
           </g>
         </g>
       </svg>
-      <Meeting>oder ein Meeting im HQ vereinbaren?</Meeting>
+      <Meeting>
+        Sie möchten lieber persönlich mit uns sprechen? Dann vereinbaren wir
+        gerne ein Treffen mit Ihnen.
+      </Meeting>
       <Buttons>
-        <button className="meeting">Meeting Vereinbaren</button>
+        <button className="meeting">Meeting vereinbaren</button>
       </Buttons>
     </Text>
   </Layout>

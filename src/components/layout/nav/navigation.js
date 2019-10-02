@@ -232,8 +232,8 @@ class Navigation extends Component {
                   <Link to="/schreinerei/schraenke">
                     <li>Schränke</li>
                   </Link>
-                  <Link to="/schreinerei/reperaturen">
-                    <li>Reperaturen</li>
+                  <Link to="/schreinerei/reparaturen">
+                    <li>Reparaturen</li>
                   </Link>
                   <Link to="/schreinerei/moebel-weingestell">
                     <li>Weingestell | Möbel</li>

@@ -217,10 +217,7 @@ export default class CenterMode extends Component {
                 </g>
               </svg>
               <Paragraph style={{ paddingTop: "1.45em" }}>
-                Patrik und Cornelia Morf{" "}
-                <Paragraph>Frickenstrasse 11 8600 Dübendorf</Paragraph>
-                <Paragraph> 043 819 12 78 | 079 516 08 03</Paragraph>{" "}
-                <Paragraph> pc.morf@datacomm.ch</Paragraph>
+                Patrik und Cornelia
               </Paragraph>
             </InsideTest>
           </TestamonialContainer>

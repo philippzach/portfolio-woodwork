@@ -182,9 +182,21 @@ export default class Left extends Component {
           <BackgroundContainer>
             <ImageContainer>
               <AnimationContainer id="imageanimation">
-                <Image src={Slide1} alt="Schreinerei" height="400px" />
-                <Image src={Slide2} alt="Schreinerei" height="400px" />
-                <Image src={Slide3} alt="Schreinerei" height="400px" />
+                <Image
+                  src={Slide1}
+                  alt="Holzbau Anbau Wohlgensinger Ag"
+                  height="400px"
+                />
+                <Image
+                  src={Slide2}
+                  alt="Holzbau Anbau Wohlgensinger Ag"
+                  height="400px"
+                />
+                <Image
+                  src={Slide3}
+                  alt="Holzbau Anbau Wohlgensinger Ag"
+                  height="400px"
+                />
               </AnimationContainer>
             </ImageContainer>
             <TextContainer>
@@ -196,8 +208,7 @@ export default class Left extends Component {
                 den Umbau, Anbau oder Neubau. Unsere innovativen und kompetenten
                 Bauleiter und Zimmerleute arbeiten Ihren Wünschen und Angaben
                 entsprechend zuverlässig und mit viel Gespür für den lebendigen
-                Rohstoff Holz. handwerklichem Können nach individuellen
-                Vorgaben.
+                Rohstoff Holz.
               </Paragraph>
               <Button1 name="Zum Holzbau" />
             </TextContainer>

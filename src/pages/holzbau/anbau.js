@@ -9,7 +9,7 @@ const Anbau = ({ data }) => {
         header={data.landing}
         select={data.select}
         headerText="Anbau"
-        paragraph="Ist die Fläche im Erdgeschoss zu klein geworden oder kann mit einem Anbau am Haus eine zusätzliche Wohneinheit auf dem Grundstück geschaffen werden? Wir sind Ihr Partner für moderne, energiesparende und in kurzer Zeit erstellte Anbauten. Auch hier ist Holzbau ist in jedem Fall die richtige Wahl."
+        paragraph="Ist die Fläche im Erdgeschoss zu klein geworden oder kann mit einem Anbau am Haus eine zusätzliche Wohneinheit auf dem Grundstück geschaffen werden? Wir sind Ihr Partner für moderne, energiesparende und in kurzer Zeit erstellte Anbauten. Auch hier ist Holzbau in jedem Fall die richtige Wahl."
         subParagraph=""
       />
     </div>

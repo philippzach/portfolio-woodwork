@@ -87,8 +87,8 @@ const Schreinerei = ({ data }) => (
         <Link to="/schreinerei/schraenke">
           <Card data={data.card3} title="Schränke" />
         </Link>
-        <Link to="/schreinerei/reperaturen">
-          <Card data={data.card4} title="Reperaturen" />
+        <Link to="/schreinerei/reparaturen">
+          <Card data={data.card4} title="Reparaturen" />
         </Link>
         <Link to="/schreinerei/moebel-weingestell">
           <Card data={data.card5} title="Möbel/Weingestell" />

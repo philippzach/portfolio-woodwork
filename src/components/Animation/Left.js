@@ -172,10 +172,10 @@ const Left = () => (
       <BackgroundContainer>
         <TextContainer>
           <img src={IconSchreinerei} alt="icon schreinerei passgenau" />
-          <TopHeading>Passgenau und Maßgeschneidert</TopHeading>
+          <TopHeading>Passgenau und Massgeschneidert</TopHeading>
           <Heading>Schreinerei</Heading>
           <Paragraph>
-            Wenn Sie auf der Suche nach Türen, Treppen, Schränke und Möbel nach
+            Wenn Sie auf der Suche nach Türen, Treppen, Schränken und Möbel nach
             Mass sind, dann sind Sie bei uns genau richtig. Wir setzen Ihre
             Vorstellungen in die Tat um und unsere Möbelschreiner fertigen Ihre
             Möbelstücke mit viel Leidenschaft und handwerklichem Können nach
