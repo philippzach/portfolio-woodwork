@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Img from "gatsby-image"
+import TeamMember from "../components/team-member"
 
 import Layout from "../layout/layout-s"
 import SEO from "../components/seo"
@@ -10,6 +11,13 @@ const Container = styled.div`
   max-width: 1050px;
   margin: 0 auto;
   @media (max-width: 900px) {
+    padding: 0 3em;
+  }
+`
+const ContainerTeam = styled.div`
+  max-width: 1050px;
+  margin: 0 auto;
+  @media (max-width: 1100px) {
     padding: 0 3em;
   }
 `
@@ -53,6 +61,18 @@ const FiftyFlexCenterTextTop = styled.div`
     margin-left: 0%;
   }
 `
+const FiftyFlexCenterText = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(234, 234, 234);
+  padding: 0 2.5em;
+  @media (max-width: 900px) {
+    width: 100%;
+    padding: 2em 2.5em;
+  }
+`
 const SpanHeader = styled.h3`
   padding-top: 1em;
   text-transform: uppercase;
@@ -66,6 +86,23 @@ const TopHeading = styled.h1`
   font-family: futura;
   font-weight: bold;
   line-height: 1.25;
+`
+const Heading = styled.h2`
+  font-family: futura;
+  font-weight: bold;
+`
+const Paragraph = styled.p``
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  @media (min-width: 601px) and (max-width: 950px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const About = ({ data }) => (
@@ -121,7 +158,258 @@ const About = ({ data }) => (
           </p>
         </FiftyFlexCenterTextTop>
       </FiftyContainerReverse>
+
+      <Spacer />
+      <FiftyContainerReverse>
+        <Fifty>
+          <Img
+            fluid={data.about1.childImageSharp.fluid}
+            alt="Ueber uns Wohngensinger Ag"
+          />
+        </Fifty>
+        <FiftyFlexCenterText>
+          <Heading>
+            Kunden -
+            <br />
+            Orientierung
+          </Heading>
+          <Paragraph>
+            Wir denken im sinne des Kunden mit und holen seine bedürfnisse ab.
+            Dadurch werden die Wünsche und Ziele des Kunden erfüllt.
+          </Paragraph>
+        </FiftyFlexCenterText>
+      </FiftyContainerReverse>
+      <Spacer />
+      <FiftyContainer>
+        <FiftyFlexCenterText>
+          <Heading>
+            Team -
+            <br />
+            Fähigkeit
+          </Heading>
+          <Paragraph>
+            Wir lösen die Aufgaben gemeinsam und helfen einander die
+            Herausforderung zu meistern. Dabei schenken wir gegenseitig das
+            Vertrauen, denn gemeinsam schafft man mehr.
+          </Paragraph>
+        </FiftyFlexCenterText>
+        <Fifty>
+          <Img
+            fluid={data.about2.childImageSharp.fluid}
+            alt="wohlgensinger holzbau services planung"
+          />
+        </Fifty>
+      </FiftyContainer>
+      <Spacer />
+      <FiftyContainerReverse>
+        <Fifty>
+          <Img
+            fluid={data.about3.childImageSharp.fluid}
+            alt="Ueber uns Wohngensinger Ag"
+          />
+        </Fifty>
+        <FiftyFlexCenterText>
+          <Heading>Lern - Wille</Heading>
+          <Paragraph>
+            Wir Lernen aus fehlern und verbessern uns aus diesen. Wir finden
+            Innovation und Optimierungen die dem kunden und dem Betrieb
+            weiterhefen.
+          </Paragraph>
+        </FiftyFlexCenterText>
+      </FiftyContainerReverse>
+      <Spacer />
+      <FiftyContainer>
+        <FiftyFlexCenterText>
+          <Heading>
+            Lösungs - <br />
+            Orientierung
+          </Heading>
+          <Paragraph>
+            Wenn wir auf Probleme oder Schwierigkeiten stossen, soll nicht das
+            Problem hervorgehoben werden, sondern die Lösungsfindung in den
+            Vordergrund gestellt werden.
+          </Paragraph>
+        </FiftyFlexCenterText>
+        <Fifty>
+          <Img
+            fluid={data.about4.childImageSharp.fluid}
+            alt="wohlgensinger holzbau services planung"
+          />
+        </Fifty>
+      </FiftyContainer>
+      <Spacer />
+      <FiftyContainerReverse>
+        <Fifty>
+          <Img
+            fluid={data.about5.childImageSharp.fluid}
+            alt="Ueber uns Wohngensinger Ag"
+          />
+        </Fifty>
+        <FiftyFlexCenterText>
+          <Heading>Passion für das Holz</Heading>
+          <Paragraph>
+            Harz fließt durch unsere Adern. Wir lieben das Holzhandwerk und
+            leben die Zimmermanns-Tradition.
+          </Paragraph>
+        </FiftyFlexCenterText>
+      </FiftyContainerReverse>
+      <Spacer />
+      <FiftyContainer>
+        <FiftyFlexCenterText>
+          <Heading>
+            Boden - <br />
+            Ständigkeit
+          </Heading>
+          <Paragraph>
+            Wir Holzfachleute zeichnen uns durch unseren Fleiß, unsere
+            Ehrlichkeit und den guten Umgang aus.
+          </Paragraph>
+        </FiftyFlexCenterText>
+        <Fifty>
+          <Img
+            fluid={data.about6.childImageSharp.fluid}
+            alt="wohlgensinger holzbau services planung"
+          />
+        </Fifty>
+      </FiftyContainer>
+      <Spacer />
     </Container>
+    <ContainerTeam>
+      <svg
+        width="27px"
+        height="27px"
+        viewBox="0 0 27 27"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="Page-1"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd"
+        >
+          <g
+            id="Uber-Uns"
+            transform="translate(-231.000000, -5383.000000)"
+            fill="#404040"
+          >
+            <path
+              d="M244.5,5406.625 C238.908469,5406.625 234.375,5402.09238 234.375,5396.5 C234.375,5390.90762 238.908469,5386.375 244.5,5386.375 C250.091531,5386.375 254.625,5390.90762 254.625,5396.5 C254.625,5402.09238 250.091531,5406.625 244.5,5406.625 M244.5,5383 C237.044625,5383 231,5389.04378 231,5396.5 C231,5403.95537 237.044625,5410 244.5,5410 C251.955375,5410 258,5403.95537 258,5396.5 C258,5389.04378 251.955375,5383 244.5,5383"
+              id="3"
+            ></path>
+          </g>
+        </g>
+      </svg>
+
+      <SpanHeader>Unser</SpanHeader>
+      <TopHeading>Team</TopHeading>
+      <p style={{ maxWidth: "35em" }}>
+        Unser Team aus erfahrenen und top motivierten Mitarbeitern freut sich
+        auf Sie. Vom Zimmermann, Möbelschreiner, Schreiner, Bauplaner, Bauleiter
+        und vielen anderen ist alles dabei.
+      </p>
+      <Grid>
+        <TeamMember
+          photo={data.team1}
+          name="SIMON RUTZ"
+          jobTitle="Geschäftsführer | Inhaber"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team2}
+          name="CARMEN FRITZ"
+          jobTitle="Marketing | Personal"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team3}
+          name="WERNER RÜRDCHER"
+          jobTitle="Zimmermann | Vorarbeiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team4}
+          name="FABIO SCHEFER"
+          jobTitle="????"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team5}
+          name="NORBERT 
+SCHONENBERGER"
+          jobTitle="Zimmermann | Vorarbeiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team6}
+          name="ANDREAS SCHORI"
+          jobTitle="Verkauf | Projektleiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team7}
+          name="PATRICK RÜTERMANN"
+          jobTitle="Zimmermann | Vorarbeiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team8}
+          name="PATRICE JÄGGER"
+          jobTitle="Schreiner | Vorarbeiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team9}
+          name="YVONE SCHMITH"
+          jobTitle="Administration | Buchhaltung"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team10}
+          name="RAHPAEL LÖHRER"
+          jobTitle="Zimmermann"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team11}
+          name="RETO LOSER"
+          jobTitle="Zimmermann 2. LJ"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+        <TeamMember
+          photo={data.team12}
+          name="JEREMY SENNHANSER"
+          jobTitle="Zimmermann | Vorarbeiter"
+          education="Dipl. Holzingenieur FH"
+          phone="071 577 03 94"
+          email="simon.rutz@wohlgensinger.ch"
+        />
+      </Grid>
+      <Spacer />
+    </ContainerTeam>
   </Layout>
 )
 
@@ -143,6 +431,186 @@ export const query = graphql`
       childImageSharp {
         fluid(
           maxWidth: 2500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about1: file(relativePath: { eq: "about-1.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about2: file(relativePath: { eq: "about-2.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about3: file(relativePath: { eq: "about-3.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about4: file(relativePath: { eq: "about-4.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about5: file(relativePath: { eq: "about-5.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    about6: file(relativePath: { eq: "about-6.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team1: file(relativePath: { eq: "team-1-simon_rutz.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team2: file(relativePath: { eq: "team-2-carmen-fritz.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team3: file(relativePath: { eq: "team-3-werner-ruerduercher.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team4: file(relativePath: { eq: "team-4-fabio-schefer.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team5: file(relativePath: { eq: "team-5-norbert-schoenenhofer.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team6: file(relativePath: { eq: "team-6-andreas-schori.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team7: file(relativePath: { eq: "team-7-patrick-rueterman.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team8: file(relativePath: { eq: "team-8-patrice-jaegger.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team9: file(relativePath: { eq: "team-9-yvone-schmith.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team10: file(relativePath: { eq: "team-10-raphael-loerer.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team11: file(relativePath: { eq: "team-11-reto-loser.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team12: file(relativePath: { eq: "team-12-jerehmy-sennhauser.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
           traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
           ...GatsbyImageSharpFluid_tracedSVG
