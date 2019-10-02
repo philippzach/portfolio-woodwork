@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
 
@@ -15,17 +15,14 @@ const Heading = styled.h2`
 const Paragraph = styled.p`
   margin-bottom: 2em;
 `
+const Cta = () => (
+  <Container>
+    <Heading>Kontaktieren Sie Uns!</Heading>
+    <Paragraph>Telefonat abmachen | Meeting vereinbaren</Paragraph>
+    <Link to="/kontakt">
+      <button className="mainbutton">Jetzt kostenlos Anfragen</button>
+    </Link>
+  </Container>
+)
 
-export default class cta extends Component {
-  render() {
-    return (
-      <Container>
-        <Heading>Kontaktieren Sie Uns!</Heading>
-        <Paragraph>Telefonat abmachen | Meeting vereinbaren</Paragraph>
-        <Link to="/kontakt">
-          <button className="mainbutton">Jetzt kostenlos Anfragen</button>
-        </Link>
-      </Container>
-    )
-  }
-}
+export default Cta

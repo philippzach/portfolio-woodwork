@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../layout/layout-s"
+import Layout from "../components/layout/layout-s"
 import SEO from "../components/seo"
 
 const Blog = ({ data }) => (

@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
 import "./animation.css"
@@ -131,77 +131,68 @@ const Image = styled.img`
   position: absolute;
   right: 0;
 `
-const ArtificialLink = styled.span`
-  font-family: roboto;
-  font-weight: bold;
-`
 
-export default class Left extends Component {
-  render() {
-    return (
-      <Link to="/schreinerei">
-        <BoxContainer className="hoverlink">
-          <NumberBox>
-            <LineBox>
-              <SvgLine>
-                <svg width="72px" height="4px" viewBox="0 0 92 4" version="1.1">
-                  <g
-                    stroke-width="1"
-                    fill="none"
-                    fill-rule="evenodd"
-                    stroke-linecap="square"
-                  >
-                    <g
-                      id="Wohlgensinger---Landing-Page"
-                      transform="translate(0.000000, -2462.000000)"
-                      stroke="#DDCABF"
-                      stroke-width="3"
-                    >
-                      <g
-                        id="Group-9"
-                        transform="translate(0.000000, 2444.000000)"
-                      >
-                        <path
-                          d="M45.5,-24.5 L45.5,64.5"
-                          id="Line-5"
-                          transform="translate(45.500000, 20.000000) rotate(-90.000000) translate(-45.500000, -20.000000) "
-                        ></path>
-                      </g>
-                    </g>
+const Left = () => (
+  <Link to="/schreinerei">
+    <BoxContainer className="hoverlink">
+      <NumberBox>
+        <LineBox>
+          <SvgLine>
+            <svg width="72px" height="4px" viewBox="0 0 92 4" version="1.1">
+              <g
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+                stroke-linecap="square"
+              >
+                <g
+                  id="Wohlgensinger---Landing-Page"
+                  transform="translate(0.000000, -2462.000000)"
+                  stroke="#DDCABF"
+                  stroke-width="3"
+                >
+                  <g id="Group-9" transform="translate(0.000000, 2444.000000)">
+                    <path
+                      d="M45.5,-24.5 L45.5,64.5"
+                      id="Line-5"
+                      transform="translate(45.500000, 20.000000) rotate(-90.000000) translate(-45.500000, -20.000000) "
+                    ></path>
                   </g>
-                </svg>
-              </SvgLine>
-            </LineBox>
-            <NumbersBox id="numberanimation">
-              <Numbers>01</Numbers>
-              <Numbers>02</Numbers>
-              <Numbers>03</Numbers>
-            </NumbersBox>
-          </NumberBox>
-          <BackgroundContainer>
-            <TextContainer>
-              <img src={IconSchreinerei} alt="icon schreinerei passgenau" />
-              <TopHeading>Passgenau und Maßgeschneidert</TopHeading>
-              <Heading>Schreinerei</Heading>
-              <Paragraph>
-                Wenn Sie auf der Suche nach Türen, Treppen, Schränke und Möbel
-                nach Mass sind, dann sind Sie bei uns genau richtig. Wir setzen
-                Ihre Vorstellungen in die Tat um und unsere Möbelschreiner
-                fertigen Ihre Möbelstücke mit viel Leidenschaft und
-                handwerklichem Können nach individuellen Vorgaben.
-              </Paragraph>
-              <Button1 name="Zur Schreinerei" />
-            </TextContainer>
-            <ImageContainer>
-              <AnimationContainer id="imageanimation">
-                <Image src={Slide1} alt="Schreinerei" height="400px" />
-                <Image src={Slide2} alt="Schreinerei" height="400px" />
-                <Image src={Slide3} alt="Schreinerei" height="400px" />
-              </AnimationContainer>
-            </ImageContainer>
-          </BackgroundContainer>
-        </BoxContainer>
-      </Link>
-    )
-  }
-}
+                </g>
+              </g>
+            </svg>
+          </SvgLine>
+        </LineBox>
+        <NumbersBox id="numberanimation">
+          <Numbers>01</Numbers>
+          <Numbers>02</Numbers>
+          <Numbers>03</Numbers>
+        </NumbersBox>
+      </NumberBox>
+      <BackgroundContainer>
+        <TextContainer>
+          <img src={IconSchreinerei} alt="icon schreinerei passgenau" />
+          <TopHeading>Passgenau und Maßgeschneidert</TopHeading>
+          <Heading>Schreinerei</Heading>
+          <Paragraph>
+            Wenn Sie auf der Suche nach Türen, Treppen, Schränke und Möbel nach
+            Mass sind, dann sind Sie bei uns genau richtig. Wir setzen Ihre
+            Vorstellungen in die Tat um und unsere Möbelschreiner fertigen Ihre
+            Möbelstücke mit viel Leidenschaft und handwerklichem Können nach
+            individuellen Vorgaben.
+          </Paragraph>
+          <Button1 name="Zur Schreinerei" />
+        </TextContainer>
+        <ImageContainer>
+          <AnimationContainer id="imageanimation">
+            <Image src={Slide1} alt="Schreinerei" height="400px" />
+            <Image src={Slide2} alt="Schreinerei" height="400px" />
+            <Image src={Slide3} alt="Schreinerei" height="400px" />
+          </AnimationContainer>
+        </ImageContainer>
+      </BackgroundContainer>
+    </BoxContainer>
+  </Link>
+)
+
+export default Left

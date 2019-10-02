@@ -9,9 +9,6 @@ import Pic5 from "../../images/slide-thin5.jpg"
 import Pic6 from "../../images/slide-thin6.jpg"
 import Pic7 from "../../images/slide-thin7.jpg"
 import Pic8 from "../../images/slide-thin8.jpg"
-import { Helmet } from "react-helmet"
-import Left from "../../images/arrowleft.svg"
-import Right from "../../images/arrowright.svg"
 
 const Buttons = styled.div`
   position: absolute;
@@ -88,43 +85,30 @@ export default class Responsive extends Component {
     }
     return (
       <Container>
-        <Helmet>
-          <link
-            rel="stylesheet"
-            type="text/css"
-            charset="UTF-8"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-          />
-        </Helmet>
         <Slider ref={c => (this.slider = c)} {...settings}>
           <div key={1}>
-            <img src={Pic1} />
+            <img src={Pic1} alt="" />
           </div>
           <div key={2}>
-            <img src={Pic2} />
+            <img src={Pic2} alt="" />
           </div>
           <div key={3}>
-            <img src={Pic3} />
+            <img src={Pic3} alt="" />
           </div>
           <div key={4}>
-            <img src={Pic4} />
+            <img src={Pic4} alt="" />
           </div>
           <div key={5}>
-            <img src={Pic5} />
+            <img src={Pic5} alt="" />
           </div>
           <div key={6}>
-            <img src={Pic6} />
+            <img src={Pic6} alt="" />
           </div>
           <div key={7}>
-            <img src={Pic7} />
+            <img src={Pic7} alt="" />
           </div>
           <div key={8}>
-            <img src={Pic8} />
+            <img src={Pic8} alt="" />
           </div>
         </Slider>
         <Buttons>

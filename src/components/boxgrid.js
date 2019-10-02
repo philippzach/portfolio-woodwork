@@ -75,7 +75,7 @@ span {
 }
 }`
 
-export default class boxgrid extends Component {
+class boxgrid extends Component {
   render() {
     return (
       <>
@@ -155,3 +155,4 @@ export default class boxgrid extends Component {
     )
   }
 }
+export default boxgrid

@@ -1,11 +1,11 @@
-import React, { Component, Children } from "react"
-import { Link, graphql } from "gatsby"
+import React, { Component } from "react"
+
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import Cta from "../components/cta"
 import SEO from "../components/seo"
 
-import Layout from "../layout/layout-s"
+import Layout from "../components/layout/layout-s"
 
 const Container = styled.div`
   display: flex;
@@ -58,7 +58,7 @@ export default class subTemplate extends Component {
             <Right>
               <Img
                 fluid={this.props.select.childImageSharp.fluid}
-                alt={this.props.headerText + " " + "photo"}
+                alt={this.props.headerText}
               />
             </Right>
           </Container>

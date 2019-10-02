@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Template from "../../components/sub-template-1"
 
@@ -11,7 +11,6 @@ const Umbau = ({ data }) => {
         headerText="Umbau"
         paragraph="Sie möchten Ihr Haus umbauen? Wir planen Ihren Umbau mit viel Herz und Verstand, sei es im modernen Stil oder auch in Kombination mit Altholz. Wir haben ausserdem die passenden Konzepte und Lösungen, wenn die Raumhöhe knapp ist, die Gebäudehülle erneuert werden oder die Balkenlage statisch verbessert werden muss."
         subParagraph=""
-
       />
     </div>
   )

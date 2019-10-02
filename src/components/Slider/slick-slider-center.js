@@ -1,9 +1,8 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styled from "@emotion/styled"
-import { jsx, css, cx } from "@emotion/core"
 import Pic1 from "../../images/testcenter1.jpg"
-import { Helmet } from "react-helmet"
+
 import "./slider.css"
 
 const ButtonsLeft = styled.div`
@@ -133,20 +132,6 @@ export default class CenterMode extends Component {
     }
     return (
       <Container>
-        <Helmet>
-          <link
-            rel="stylesheet"
-            type="text/css"
-            charset="UTF-8"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-          />
-        </Helmet>
-
         <Slider
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}

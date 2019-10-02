@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Template from "../../components/sub-template-1"
 
@@ -11,7 +11,6 @@ const Aufstockung = ({ data }) => {
         headerText="Aufstockung"
         paragraph="Möchten Sie Ihr Grundstück mit z.B. einer zweiten Wohnung oder zusätzlichem Wohnraum besser nutzen und gleichzeitig die vorhandene Substanz bewahren? Dann ist Holzbau die erste Wahl und wir sind der richtige Partner. Unsere Planer sind versiert darin, modernsten Ansprüchen entsprechende und statisch elegante Lösungen zu erarbeiten."
         subParagraph=""
-
       />
     </div>
   )

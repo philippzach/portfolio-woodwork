@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 
-import Layout from "../layout/layout-m"
+import Layout from "../components/layout/layout-m"
 import Card from "../components/card"
 import SEO from "../components/seo"
 

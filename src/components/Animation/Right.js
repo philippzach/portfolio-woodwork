@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import "./animation.css"
 import Button1 from "../Buttons/Button1/Button1"
@@ -136,10 +135,6 @@ const AnimationContainer = styled.div`
 `
 const Image = styled.img`
   position: absolute;
-`
-const ArtificialLink = styled.span`
-  font-family: roboto;
-  font-weight: bold;
 `
 
 export default class Left extends Component {

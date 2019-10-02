@@ -4,7 +4,7 @@ import styled from "@emotion/styled"
 import Img from "gatsby-image"
 import TeamMember from "../components/team-member"
 
-import Layout from "../layout/layout-s"
+import Layout from "../components/layout/layout-s"
 import SEO from "../components/seo"
 
 const Container = styled.div`

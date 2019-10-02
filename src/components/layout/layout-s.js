@@ -1,7 +1,7 @@
 import React from "react"
 import Navigation from "./nav/navigation"
 import Footer from "./footer"
-import { useStaticQuery, graphql } from "gatsby"
+
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 

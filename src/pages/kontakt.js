@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 
-import Layout from "../layout/layout-s"
+import Layout from "../components/layout/layout-s"
 import SEO from "../components/seo"
 
 const Heading = styled.h1`

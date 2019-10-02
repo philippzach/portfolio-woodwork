@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import "./navigation.css"
-import Logo from "../../images/wohlgensinger_logo.svg"
-import MobileLogo from "../../images/mobile_logo.svg"
-import MobileMenu from "../../images/mobilemenu.svg"
+import Logo from "../../../images/wohlgensinger_logo.svg"
+import MobileLogo from "../../../images/mobile_logo.svg"
+
 import styled from "@emotion/styled"
-import Line from "../../images/line.svg"
-import Phone from "../../images/phone.svg"
+import Line from "../../../images/line.svg"
+import Phone from "../../../images/phone.svg"
 
 const Bar = styled.div`
   position: absolute;
@@ -73,7 +73,7 @@ const Mobile = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0.45em;
-  padding-top: 1,45em;
+  padding-top: 1, 45em;
   @media (min-width: 669px) {
     display: none;
   }
@@ -94,10 +94,7 @@ const MobileList = styled.div`
 `
 
 const ML = styled.img`
-height: 40px;
-`
-const MM = styled.img`
-  cursor: pointer;
+  height: 40px;
 `
 
 const Cta = styled.div`
@@ -146,7 +143,7 @@ class Navigation extends Component {
           }}
         >
           <Mobile>
-            <Link to="/" style={{display: "flex"}}>
+            <Link to="/" style={{ display: "flex" }}>
               <ML src={MobileLogo} alt="Wohlgensinger Mobile Logo" />
             </Link>
             <svg

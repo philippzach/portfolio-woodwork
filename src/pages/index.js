@@ -1,26 +1,41 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Slider from "../components/Slider/slick-slider-thin"
 import SliderCenter from "../components/Slider/slick-slider-center"
 import AnimationLeft from "../components/Animation/Left"
 import AnimationHB from "../components/Animation/Right"
 import Cta from "../components/cta"
 import BoxGrid from "../components/boxgrid"
+import { Helmet } from "react-helmet"
 
-import Layout from "../layout/layout-lp"
+import Layout from "../components/layout/layout-lp"
 
 import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => (
   <Layout data={data}>
+    <Helmet>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
+    </Helmet>
     <SEO title="Holzbau" />
     <Slider />
     <AnimationHB data={data} />
     <AnimationLeft />
     <Cta />
+    {/*
     <BoxGrid data={data} />
     <SliderCenter />
-    <Cta />
+    <Cta /> */}
   </Layout>
 )
 
