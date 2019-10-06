@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
+import Google from "../../images/google.svg"
 
 const FooterBg = styled.footer`
   background-color: rgb(236, 236, 236);
@@ -13,8 +14,8 @@ const Container = styled.div`
 const Grid = styled.div`
   font-family: futura;
   font-size: 0.8em;
-  padding-top: 1.45rem;
-  padding-bottom: 1.45rem;
+
+  padding: 1.45rem 1.5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   @media (max-width: 669px) {
@@ -28,51 +29,78 @@ const Span = styled.span`
 const Spacer = styled.div`
   margin: 1em 0;
 `
-const Other = styled.div`
+const OtherMenu = styled.div`
   display: grid;
   grid-template-rows: 1.5fr repeat(5, 1fr);
+  @media (max-width: 669px) {
+    display: none;
+  }
+`
+const OtherSchreinerei = styled.div`
+  display: grid;
+  grid-template-rows: 1.5fr repeat(5, 1fr);
+  @media (max-width: 669px) {
+    padding-top: 3em;
+    text-align: center;
+  }
+`
+const OtherHolzbau = styled.div`
+  display: grid;
+  grid-template-rows: 1.5fr repeat(5, 1fr);
+  @media (max-width: 669px) {
+    padding-top: 3em;
+    text-align: center;
+  }
 `
 const Copyright = styled.div`
+  padding: 0 1.5em;
   font-family: futura;
   font-weight: 800;
   display: flex;
   justify-content: space-between;
+`
+const Contact = styled.div`
+  @media (max-width: 669px) {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
 `
 
 const Footer = () => (
   <FooterBg>
     <Container>
       <Grid>
-        <Other>
+        <OtherMenu>
           <span></span>
           <Link to="/ueber-uns">Über uns</Link>
           <Link to="/services">Services</Link>
           <Link to="/blog">News</Link>
           <Link to="/kontakt">Kontakt</Link>
           <span></span>
-        </Other>
-        <Other>
+        </OtherMenu>
+        <OtherHolzbau>
           <Link to="/holzbau">
             <b>Holzbau</b>
           </Link>
-          <span>Aufstockung</span>
-          <span>Umbau</span>
-          <span>Anbau</span>
-          <span>Neubau</span>
-          <span>Service</span>
-        </Other>
-        <Other>
+
+          <Link to="/holzbau/aufstockung">Aufstockung</Link>
+          <Link to="/holzbau/umbau">Umbau</Link>
+          <Link to="/holzbau/anbau">Anbau</Link>
+          <Link to="/holzbau/neubau">Neubau</Link>
+          <Link to="/holzbau/service">Service</Link>
+        </OtherHolzbau>
+        <OtherSchreinerei>
           <Link to="/schreinerei">
             <b>Schreinerei</b>
           </Link>
-          <span>Türen</span>
-          <span>Treppen</span>
-          <span>Schränke</span>
-          <span>Reperaturen</span>
-          <span>Möbel</span>
-        </Other>
-
-        <div>
+          <Link to="/schreinerei/tueren">Türen</Link>
+          <Link to="/schreinerei/treppen">Treppen</Link>
+          <Link to="/schreinerei/schraenke">Schränke</Link>
+          <Link to="/schreinerei/reparaturen">Reparaturen</Link>
+          <Link to="/schreinerei/moebel-weingestell">Möbel | Weingestell</Link>
+        </OtherSchreinerei>
+        <Contact>
           <Span>
             <b>Wohlgensinger AG</b>
           </Span>
@@ -88,8 +116,8 @@ const Footer = () => (
             Email <b style={{ fontSize: "13px" }}>info@wohlgensinger.ch</b>
           </Span>
           <Spacer />
-          <button>Contact us</button>
-        </div>
+          <button className="mainbutton">Kontaktieren Sie uns!</button>
+        </Contact>
       </Grid>
       <hr />
       <Copyright>
@@ -97,7 +125,9 @@ const Footer = () => (
           © {new Date().getFullYear()},{` `}
           Wohlgensinger AG
         </span>
-        <span>Social</span>
+        <span>
+          <img src={Google} alt="google icon" />
+        </span>
       </Copyright>
     </Container>
   </FooterBg>

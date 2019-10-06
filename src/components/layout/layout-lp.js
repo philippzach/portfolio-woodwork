@@ -18,13 +18,33 @@ const GreenBlock = styled.div`
     left: 12.5%;
     text-align: center;
   }
+  @media (min-width: 560px) and (max-width: 800px) {
+    top: 100px;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+  }
+  @media (min-width: 800px) and (max-width: 1000px) {
+    width: 50%;
+    left: 50%;
+    top: 200px;
+  }
 `
+const ButtonContainer = styled.div`
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 30px;
+  @media (max-width: 560px) {
+    display: none;
+  }
+`
+
 const Heading = styled.h1`
   font-family: futura;
   font-weight: 800;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  padding: 1em 0.5em 1em 0.75em;
   margin-bottom: 0;
 `
 
@@ -39,6 +59,9 @@ const Layout = ({ children, data }) => {
           <br />
           mit Holz
         </Heading>
+        <ButtonContainer>
+          <button className="secondarybutton">Kontaktieren Sie uns!</button>
+        </ButtonContainer>
       </GreenBlock>
       <div>
         <main>{children}</main>

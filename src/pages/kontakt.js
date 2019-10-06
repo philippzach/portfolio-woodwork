@@ -36,8 +36,12 @@ const Meeting = styled.h2`
   font-family: futura;
   font-weight: bold;
   font-size: 1.2em;
+  line-height: 1.5em;
   margin-top: 2em;
   margin-bottom: 1.45em;
+  @media (max-width: 600px) {
+    padding: 0 1em;
+  }
 `
 
 const Kontakt = ({ data }) => (

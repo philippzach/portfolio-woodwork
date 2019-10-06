@@ -102,8 +102,8 @@ const Services = ({ data }) => (
             am Bau. Unsere Dienstleistungen für Sie umfassen deshalb neben
             Entwurf, Holzbau, Schreinerei und Möbelmontage auch die
             Gesamtkoordination Ihres Bauvorhabens. Wir stellen für Sie Kosten,
-            Qualität und Termine sicher, damit Ihr Hausbau nicht den Rahmen
-            sprengt.
+            Qualität und Termine sicher, damit Ihr Hausbau Ihnen jederzeit
+            Freude bereitet.
           </Paragraph>
         </FiftyFlexCenterTextTop>
       </FiftyContainer>

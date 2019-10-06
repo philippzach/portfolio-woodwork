@@ -9,7 +9,7 @@ const Aufstockung = ({ data }) => {
         header={data.landing}
         select={data.select}
         headerText="Aufstockung"
-        paragraph="Möchten Sie Ihr Grundstück mit zum Beispiel einer zweiten Wohnung oder zusätzlichem Wohnraum besser nutzen und gleichzeitig die vorhandene Substanz bewahren? Dann ist Holzbau die erste Wahl und wir sind der richtige Partner. Unsere Planer sind versiert darin, modernsten Ansprüchen entsprechende und statisch elegante Lösungen zu erarbeiten."
+        paragraph="Möchten Sie Ihr Grundstück mit einer zweiten Wohnung oder zusätzlichem Wohnraum besser nutzen und gleichzeitig die vorhandene Substanz bewahren? Dann ist Holzbau die erste Wahl und wir sind der richtige Partner. Unsere Planer sind versiert darin, modernsten Ansprüchen entsprechende und statisch elegante Lösungen zu erarbeiten."
         subParagraph=""
       />
     </div>

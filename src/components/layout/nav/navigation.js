@@ -8,6 +8,12 @@ import styled from "@emotion/styled"
 import Line from "../../../images/line.svg"
 import Phone from "../../../images/phone.svg"
 
+const Navigation = styled.nav`
+  @media (min-width: 670px) and (max-width: 740px) {
+    padding: 0 1rem !important;
+  }
+`
+
 const Bar = styled.div`
   position: absolute;
   z-index: 100;
@@ -64,7 +70,7 @@ const Grid = styled.div`
     grid-template-columns: 20% 45% 35%;
     align-items: center;
   }
-  @media (max-width: 669px) {
+  @media (max-width: 719px) {
     display: none;
   }
 `
@@ -74,21 +80,24 @@ const Mobile = styled.div`
   align-items: center;
   padding: 0.45em;
   padding-top: 1, 45em;
-  @media (min-width: 669px) {
+  @media (min-width: 720px) {
     display: none;
   }
 `
 const MobileList = styled.div`
   display: grid;
   grid-template-rows: 35px 35px 35px 35px;
+  grid-row-gap: 0.5em;
   grid-template-columns: 50%;
   justify-content: end;
   text-align: right;
+  font-weight: bold;
   z-index: 0;
   a {
-    background-color: rgba(255, 255, 255, 0.85);
     color: black;
-    font-family: roboto;
+
+    text-transform: uppercase;
+    font-family: futura;
     padding-right: 33%;
   }
 `
@@ -104,11 +113,18 @@ const Cta = styled.div`
     justify-content: flex-end;
   }
 `
-const Call = styled.a`
-  padding: 0 1vw;
+
+const DownArrow = styled.span`
+  @media (max-width: 785px) {
+    display: none;
+  }
+`
+const MobileContainer = styled.div`
+  padding: 3em 0;
+  background-color: rgba(255, 255, 255, 0.85);
 `
 
-class Navigation extends Component {
+class NavigationBar extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
@@ -133,7 +149,7 @@ class Navigation extends Component {
   render() {
     return (
       <Bar>
-        <nav
+        <Navigation
           style={{
             margin: `0 auto`,
             background: `white`,
@@ -193,7 +209,7 @@ class Navigation extends Component {
                     textDecoration: `none`,
                   }}
                 >
-                  Holzbau &#9662;
+                  Holzbau <DownArrow>&#9662;</DownArrow>
                 </Link>
                 <ul className="secondul">
                   <Link to="/holzbau/aufstockung">
@@ -220,7 +236,7 @@ class Navigation extends Component {
                     textDecoration: `none`,
                   }}
                 >
-                  Schreinerei &#9662;
+                  Schreinerei <DownArrow>&#9662;</DownArrow>
                 </Link>
                 <ul className="secondul">
                   <Link to="/schreinerei/tueren">
@@ -263,53 +279,65 @@ class Navigation extends Component {
             </List>
             <Cta>
               <img src={Line} alt="Seperator line" />
-              <Call>+41 (0)71 983 15 20</Call>
+              <Link to="/kontakt" style={{ padding: "0 1vw" }}>
+                +41 (0)71 983 15 20
+              </Link>
               <img src={Phone} alt="Phone Icon" />
             </Cta>
           </Grid>
-        </nav>
+        </Navigation>
         <div
           className={"menu" + this.state.sidebarOpen}
           onClick={() => this.toggleMenu()}
         >
-          <MobileList>
-            <Link
-              to="/holzbau"
-              style={{
-                textDecoration: `none`,
-              }}
-            >
-              Holzbau
-            </Link>
-            <Link
-              to="/schreinerei"
-              style={{
-                textDecoration: `none`,
-              }}
-            >
-              Schreinerei
-            </Link>
-            <Link
-              to="/services"
-              style={{
-                textDecoration: `none`,
-              }}
-            >
-              Services
-            </Link>
-            <Link
-              to="/kontakt"
-              style={{
-                textDecoration: `none`,
-              }}
-            >
-              Kontakt
-            </Link>
-          </MobileList>
+          <MobileContainer>
+            <MobileList>
+              <Link
+                to="/holzbau"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Holzbau
+              </Link>
+              <Link
+                to="/schreinerei"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Schreinerei
+              </Link>
+              <Link
+                to="/ueber-uns"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Über Uns
+              </Link>
+              <Link
+                to="/services"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Services
+              </Link>
+              <Link
+                to="/kontakt"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Kontakt
+              </Link>
+            </MobileList>
+          </MobileContainer>
         </div>
       </Bar>
     )
   }
 }
 
-export default Navigation
+export default NavigationBar
