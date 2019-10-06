@@ -86,7 +86,7 @@ const Mobile = styled.div`
 `
 const MobileList = styled.div`
   display: grid;
-  grid-template-rows: 35px 35px 35px 35px;
+  grid-template-rows: 35px 35px 35px 35px 35px 35px;
   grid-row-gap: 0.5em;
   grid-template-columns: 50%;
   justify-content: end;
@@ -121,7 +121,7 @@ const DownArrow = styled.span`
 `
 const MobileContainer = styled.div`
   padding: 3em 0;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
 `
 
 class NavigationBar extends Component {
@@ -309,6 +309,14 @@ class NavigationBar extends Component {
                 Schreinerei
               </Link>
               <Link
+                to="/services"
+                style={{
+                  textDecoration: `none`,
+                }}
+              >
+                Services
+              </Link>
+              <Link
                 to="/ueber-uns"
                 style={{
                   textDecoration: `none`,
@@ -317,12 +325,12 @@ class NavigationBar extends Component {
                 Über Uns
               </Link>
               <Link
-                to="/services"
+                to="/blog"
                 style={{
                   textDecoration: `none`,
                 }}
               >
-                Services
+                News & Blog
               </Link>
               <Link
                 to="/kontakt"

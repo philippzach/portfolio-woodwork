@@ -110,10 +110,16 @@ const Footer = () => (
           <Span>Schweiz</Span>
           <Spacer />
           <Span>
-            Telefon <b style={{ fontSize: "13px" }}>+41 (0)71 983 15 20</b>
+            Telefon{" "}
+            <a href="tel:+410719831520">
+              <b style={{ fontSize: "13px" }}>+41 (0)71 983 15 20</b>
+            </a>
           </Span>
           <Span>
-            Email <b style={{ fontSize: "13px" }}>info@wohlgensinger.ch</b>
+            Email{" "}
+            <a href="mailto:info@wohlgensinger.ch">
+              <b style={{ fontSize: "13px" }}>info@wohlgensinger.ch</b>
+            </a>
           </Span>
           <Spacer />
           <button className="mainbutton">Kontaktieren Sie uns!</button>
