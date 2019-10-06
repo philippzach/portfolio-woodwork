@@ -1,5 +1,6 @@
 import React from "react"
 import Navigation from "./nav/navigation"
+import { Link } from "gatsby"
 import Footer from "./footer"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
@@ -60,7 +61,9 @@ const Layout = ({ children, data }) => {
           mit Holz
         </Heading>
         <ButtonContainer>
-          <button className="secondarybutton">Kontaktieren Sie uns!</button>
+          <Link to="/kontakt">
+            <button className="secondarybutton">Kontaktieren Sie uns!</button>
+          </Link>
         </ButtonContainer>
       </GreenBlock>
       <div>
