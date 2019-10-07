@@ -122,7 +122,9 @@ const Footer = () => (
             </a>
           </Span>
           <Spacer />
-          <button className="mainbutton">Kontaktieren Sie uns!</button>
+          <Link to="/kontakt">
+            <button className="meeting">Kontaktieren Sie uns!</button>
+          </Link>
         </Contact>
       </Grid>
       <hr />
