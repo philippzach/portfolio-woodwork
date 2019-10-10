@@ -1,9 +1,10 @@
 import React, { Component } from "react"
-
+import { Helmet } from "react-helmet"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import Cta from "../components/cta"
 import SEO from "../components/seo"
+import Slider from "../components/Slider/slider-schreinerei"
 
 import Layout from "../components/layout/layout-s"
 
@@ -51,6 +52,19 @@ export default class subTemplate2 extends Component {
       <div>
         <Layout data={this.props.header} text="">
           <SEO title={this.props.headerText} />
+          <Helmet>
+            <link
+              rel="stylesheet"
+              type="text/css"
+              charset="UTF-8"
+              href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            />
+            <link
+              rel="stylesheet"
+              type="text/css"
+              href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+            />
+          </Helmet>
           <Container>
             <Left>
               <TextContainer>
@@ -67,6 +81,7 @@ export default class subTemplate2 extends Component {
             </Right>
           </Container>
           <Cta />
+          <Slider data={this.props.data} />
         </Layout>
       </div>
     )

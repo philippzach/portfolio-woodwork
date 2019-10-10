@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
 import styled from "@emotion/styled"
-import Pic1 from "../../images/testcenter1.jpg"
+import Img from "gatsby-image"
 
 import "./slider.css"
 
@@ -10,17 +10,21 @@ const ButtonsLeft = styled.div`
   display: grid;
   grid-template-columns: 50px;
   grid-template-rows: 50px;
-  bottom: 12.5%;
+  bottom: 17.5%;
   left: 33%;
   margin-top: 25px;
   @media (max-width: 600px) {
     left: 10%;
+    bottom: 15.5%;
   }
   @media (min-width: 601px) and (max-width: 800px) {
     bottom: 7.5%;
   }
   @media (min-width: 801px) and (max-width: 1000px) {
     bottom: 9.5%;
+  }
+  @media (min-width: 1801px) {
+    bottom: 21.5%;
   }
 `
 const ButtonsRight = styled.div`
@@ -28,17 +32,21 @@ const ButtonsRight = styled.div`
   display: grid;
   grid-template-columns: 50px;
   grid-template-rows: 50px;
-  bottom: 12.5%;
+  bottom: 17.5%;
   right: 33%;
   margin-top: 25px;
   @media (max-width: 600px) {
     right: 10%;
+    bottom: 15.5%;
   }
   @media (min-width: 601px) and (max-width: 800px) {
     bottom: 7.5%;
   }
   @media (min-width: 801px) and (max-width: 1000px) {
     bottom: 9.5%;
+  }
+  @media (min-width: 1801px) {
+    bottom: 21.5%;
   }
 `
 const BoxPrevious = styled.div`
@@ -58,17 +66,7 @@ const Container = styled.div`
   width: 100% !important;
   max-height: 100% !important;
 `
-const Image = styled.img`
-  @media (min-width: 1000px) {
-    padding: 2em;
-  }
-  @media (min-width: 570px) and (max-width: 1000px) {
-    padding: 1em;
-  }
-  @media (max-width: 569px) {
-    padding: 1.5em;
-  }
-`
+
 const TestamonialContainer = styled.div`
   background-color: white;
   margin-top: 4em;
@@ -172,18 +170,11 @@ export default class CenterMode extends Component {
               <Paragraph style={{ paddingTop: "1.45em" }}>
                 Wir möchten uns bei dir und deiner Belegschaft herzlich bedanken
                 für die tolle Arbeit, welche bereits im Vorfeld und ganz
-                besonders am heutigen Tag bei uns ausgeführt wurde. Du hast ein
-                tolles Team nach Dübendorf geschickt, welches miteinander die
-                Aufgaben anpackt und sehr speditiv vorankommt. Ein besonderer
-                Dank gilt Florian Senn, der aus unserer Sicht den Bau voll im
-                Griff hat und vor allem auch über die „Systemgrenzen“ hinaus
-                schaut und auf allfällige Probleme hinweisen kann.
-              </Paragraph>
-              <Paragraph>
-                Wir waren erstaunt über die Präzision der Bauteile und die
-                perfekten Anschlüsse ans bestehende Haus. Leite bitte diesen
-                Dank an deine Leute weiter. Gerne werden wir euch
-                weiterempfehlen.
+                besonders am heutigen Tag bei uns ausgeführt wurde. Euer tolles
+                Team hat miteinander die Aufgaben anpackt und ist sehr speditiv
+                vorangekommen. Der Bauleiter, hat aus unserer Sicht den Neubau
+                voll im Griff gehabt und vor allem auch über die „Systemgrenzen“
+                hinaus geschaut und auf allfällige Probleme hingewiesen.
               </Paragraph>
               <svg
                 width="22px"
@@ -223,22 +214,226 @@ export default class CenterMode extends Component {
           </TestamonialContainer>
           <TestamonialContainer>
             <InsideTest>
-              <h3>2</h3>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-706.000000, -4635.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="“">
+                      <tspan x="704" y="4666">
+                        “
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>
+                Es ware eine super Erfahrung mit so Engagierten und informativen
+                Handwerkern zusammen arbeiten zu können. Gemeinsam konnten wir
+                den Umbau unseres Haus zur vollesten Zufriedenheit von unserer
+                Seite abschliessen.
+              </Paragraph>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-709.000000, -5180.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="”">
+                      <tspan x="707" y="5211">
+                        ”
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>Christof</Paragraph>
             </InsideTest>
           </TestamonialContainer>
           <TestamonialContainer>
             <InsideTest>
-              <h3>3</h3>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-706.000000, -4635.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="“">
+                      <tspan x="704" y="4666">
+                        “
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>
+                Besten Dank für die tolle Arbeit, welche das ganze Team
+                geleistet hat. Wir sind glücklich. Super Arbeit!
+              </Paragraph>
+              <Paragraph>
+                Wir waren erstaunt über die Präzision der Bauteile und die
+                perfekten Anschlüsse ans bestehende Haus. Leite bitte diesen
+                Dank an deine Leute weiter. Gerne werden wir euch
+                weiterempfehlen.
+              </Paragraph>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-709.000000, -5180.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="”">
+                      <tspan x="707" y="5211">
+                        ”
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>Daniel</Paragraph>
             </InsideTest>
           </TestamonialContainer>
           <TestamonialContainer>
             <InsideTest>
-              <h3>4</h3>
-            </InsideTest>
-          </TestamonialContainer>
-          <TestamonialContainer>
-            <InsideTest>
-              <h3>5</h3>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-706.000000, -4635.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="“">
+                      <tspan x="704" y="4666">
+                        “
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>
+                Simon hat bei meinem Auftrag ganze Arbeit geleistet. Die
+                Annahme, Beratung wie auch die Erledigung hat er kompetent und
+                speditiv über die Bühne gebracht. Ich kann ihn nur weiter
+                empfehlen. Sobald ich wieder einen Schreiner benötige, werde ich
+                mich sehr gerne wieder an ihn wenden.
+              </Paragraph>
+              <svg
+                width="22px"
+                height="20px"
+                viewBox="0 0 22 20"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  fill-opacity="0.424142264"
+                  font-family="AmericanTypewriter-Bold, American Typewriter"
+                  font-size="45"
+                  font-weight="bold"
+                >
+                  <g
+                    id="Wohlgensinger---Landing-Page"
+                    transform="translate(-709.000000, -5180.000000)"
+                    fill="#2E2015"
+                  >
+                    <text id="”">
+                      <tspan x="707" y="5211">
+                        ”
+                      </tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+              <Paragraph style={{ paddingTop: "1.45em" }}>Noldi</Paragraph>
             </InsideTest>
           </TestamonialContainer>
         </Slider>
@@ -249,19 +444,28 @@ export default class CenterMode extends Component {
           {...settings}
         >
           <div key={1}>
-            <Image src={Pic1} />
+            <Img
+              imgStyle={{ padding: "2em" }}
+              fluid={this.props.data.centerslide1.childImageSharp.fluid}
+            />
           </div>
           <div key={2}>
-            <Image src={Pic1} />
+            <Img
+              imgStyle={{ padding: "2em" }}
+              fluid={this.props.data.centerslide2.childImageSharp.fluid}
+            />
           </div>
           <div key={3}>
-            <Image src={Pic1} />
+            <Img
+              imgStyle={{ padding: "2em" }}
+              fluid={this.props.data.centerslide3.childImageSharp.fluid}
+            />
           </div>
           <div key={4}>
-            <Image src={Pic1} />
-          </div>
-          <div key={5}>
-            <Image src={Pic1} />
+            <Img
+              imgStyle={{ padding: "2em" }}
+              fluid={this.props.data.centerslide4.childImageSharp.fluid}
+            />
           </div>
         </Slider>
         <ButtonsLeft>

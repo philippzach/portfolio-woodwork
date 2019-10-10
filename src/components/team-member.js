@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 import styled from "@emotion/styled"
 
 const Name = styled.p`
-  text-transform: uppercaser;
+  text-transform: uppercase;
   font-weight: bold;
   margin: 1em 0;
   font-size: 1.2em;

@@ -312,100 +312,307 @@ const About = ({ data }) => (
       <Grid>
         <TeamMember
           photo={data.team1}
-          name="SIMON RUTZ"
+          name="Simon Rutz"
           jobTitle="Geschäftsführer | Inhaber"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team2}
-          name="CARMEN FRITZ"
+          name="Carmen Rutz"
           jobTitle="Marketing | Personal"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team3}
-          name="WERNER RÜRDCHER"
+          name="Werner Rütsche"
           jobTitle="Zimmermann | Vorarbeiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team4}
-          name="FABIO SCHEFER"
-          jobTitle="????"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Jakob Frey"
+          jobTitle="Zimmermann | Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team5}
-          name="NORBERT 
-SCHONENBERGER"
-          jobTitle="Zimmermann | Vorarbeiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Luc Baumann"
+          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team6}
-          name="ANDREAS SCHORI"
-          jobTitle="Verkauf | Projektleiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Marco Bürge"
+          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team7}
-          name="PATRICK RÜTERMANN"
-          jobTitle="Zimmermann | Vorarbeiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Albert Stillhart"
+          jobTitle="Holzbau Facharbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team8}
-          name="PATRICE JÄGGER"
-          jobTitle="Schreiner | Vorarbeiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Reto Breitenmoser"
+          jobTitle="Zimmermann"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team9}
-          name="YVONE SCHMITH"
-          jobTitle="Administration | Buchhaltung"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Jeremy Sennhauser"
+          jobTitle="Zimmermann"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team10}
-          name="RAHPAEL LÖHRER"
-          jobTitle="Zimmermann"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Fabio Schefer"
+          jobTitle="Zimmermann in Ausbildung 4. Lehrjahr"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team11}
-          name="RETO LOSER"
-          jobTitle="Zimmermann 2. LJ"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Norbert Schönenberger"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team12}
-          name="JEREMY SENNHANSER"
-          jobTitle="Zimmermann | Vorarbeiter"
-          education="Dipl. Holzingenieur FH"
-          phone="071 577 03 94"
-          email="simon.rutz@wohlgensinger.ch"
+          name="Adrian Oberholzer"
+          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team13}
+          name="Gianandré Bachmann"
+          jobTitle="Zimmermann"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team14}
+          name="Erwin Bachmann"
+          jobTitle="Polier"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team15}
+          name="Sandro Loser"
+          jobTitle="Zimmermann in Ausbildung 1. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team16}
+          name="Fridolin Schönenberger"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team17}
+          name="Andreas Schori"
+          jobTitle="Verkaufs- / Projektleiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team18}
+          name="Thomas Gmür"
+          jobTitle="Schreiner / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team19}
+          name="Patrick Rüthemann"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team20}
+          name="Patrice Jäger"
+          jobTitle="Schreiner / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team21}
+          name="Guido Hollenstein"
+          jobTitle="Holzbau / Facharbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team22}
+          name="Ernst Aemisegger"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team23}
+          name=" Peter Schnetzer"
+          jobTitle="Polier"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team24}
+          name="Florian Senn"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team25}
+          name="Yvonne Schmitz"
+          jobTitle="Administration / Buchhaltung"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team26}
+          name="Nil Meile"
+          jobTitle="Zimmermann in Ausbildung 2. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team27}
+          name="Ralph Löhrer"
+          jobTitle="Zimmermann"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team28}
+          name="Reto Loser"
+          jobTitle="Zimmermann in Ausbildung 2. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team29}
+          name="Lorin Rüegg"
+          jobTitle="Zimmermann in Ausbildung 1. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team30}
+          name="Rösli Schönenberger"
+          jobTitle="Reinigungsdienst"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team31}
+          name="Fabian Rutz"
+          jobTitle="Holzbauingenieur"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team32}
+          name="Julian Meier"
+          jobTitle="Zimmermann in Ausbildung 4. Lehrjahr"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team33}
+          name="Damian Schönenberger"
+          jobTitle="Holzbau / Facharbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team34}
+          name="Markus Rüegg"
+          jobTitle="Schreiner / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team35}
+          name="Beat Strassmann"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team36}
+          name="Martin Widmer"
+          jobTitle="Zimmermann / Vorarbeiter"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team37}
+          name="Damian Büsser"
+          jobTitle="Holzbau Techniker"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.team38}
+          name="Niklaus Bürge"
+          jobTitle="Holzbau / Fachmitarbeiter"
+          education=""
+          phone=""
+          email=""
         />
       </Grid>
       <Spacer />
@@ -497,7 +704,7 @@ export const query = graphql`
         }
       }
     }
-    team1: file(relativePath: { eq: "team-1-simon_rutz.jpg" }) {
+    team1: file(relativePath: { eq: "team/team1.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -507,7 +714,7 @@ export const query = graphql`
         }
       }
     }
-    team2: file(relativePath: { eq: "team-2-carmen-fritz.jpg" }) {
+    team2: file(relativePath: { eq: "team/team2.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -517,7 +724,7 @@ export const query = graphql`
         }
       }
     }
-    team3: file(relativePath: { eq: "team-3-werner-ruerduercher.jpg" }) {
+    team3: file(relativePath: { eq: "team/team3.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -527,7 +734,7 @@ export const query = graphql`
         }
       }
     }
-    team4: file(relativePath: { eq: "team-4-fabio-schefer.jpg" }) {
+    team4: file(relativePath: { eq: "team/team4.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -537,7 +744,7 @@ export const query = graphql`
         }
       }
     }
-    team5: file(relativePath: { eq: "team-5-norbert-schoenenhofer.jpg" }) {
+    team5: file(relativePath: { eq: "team/team5.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -547,7 +754,7 @@ export const query = graphql`
         }
       }
     }
-    team6: file(relativePath: { eq: "team-6-andreas-schori.jpg" }) {
+    team6: file(relativePath: { eq: "team/team6.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -557,7 +764,7 @@ export const query = graphql`
         }
       }
     }
-    team7: file(relativePath: { eq: "team-7-patrick-rueterman.jpg" }) {
+    team7: file(relativePath: { eq: "team/team7.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -567,7 +774,7 @@ export const query = graphql`
         }
       }
     }
-    team8: file(relativePath: { eq: "team-8-patrice-jaegger.jpg" }) {
+    team8: file(relativePath: { eq: "team/team8.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -577,7 +784,7 @@ export const query = graphql`
         }
       }
     }
-    team9: file(relativePath: { eq: "team-9-yvone-schmith.jpg" }) {
+    team9: file(relativePath: { eq: "team/team9.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -587,7 +794,7 @@ export const query = graphql`
         }
       }
     }
-    team10: file(relativePath: { eq: "team-10-raphael-loerer.jpg" }) {
+    team10: file(relativePath: { eq: "team/team10.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -597,7 +804,7 @@ export const query = graphql`
         }
       }
     }
-    team11: file(relativePath: { eq: "team-11-reto-loser.jpg" }) {
+    team11: file(relativePath: { eq: "team/team11.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
@@ -607,7 +814,267 @@ export const query = graphql`
         }
       }
     }
-    team12: file(relativePath: { eq: "team-12-jerehmy-sennhauser.jpg" }) {
+    team12: file(relativePath: { eq: "team/team12.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team13: file(relativePath: { eq: "team/team13.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team14: file(relativePath: { eq: "team/team14.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team15: file(relativePath: { eq: "team/team15.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team16: file(relativePath: { eq: "team/team16.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team17: file(relativePath: { eq: "team/team17.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team18: file(relativePath: { eq: "team/team18.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team19: file(relativePath: { eq: "team/team19.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team20: file(relativePath: { eq: "team/team20.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team21: file(relativePath: { eq: "team/team21.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team22: file(relativePath: { eq: "team/team22.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team23: file(relativePath: { eq: "team/team23.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team24: file(relativePath: { eq: "team/team24.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team25: file(relativePath: { eq: "team/team25.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team26: file(relativePath: { eq: "team/team26.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team27: file(relativePath: { eq: "team/team27.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team28: file(relativePath: { eq: "team/team28.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team29: file(relativePath: { eq: "team/team29.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team30: file(relativePath: { eq: "team/team30.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team31: file(relativePath: { eq: "team/team31.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team32: file(relativePath: { eq: "team/team32.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team33: file(relativePath: { eq: "team/team33.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team34: file(relativePath: { eq: "team/team34.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team35: file(relativePath: { eq: "team/team35.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team36: file(relativePath: { eq: "team/team36.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team37: file(relativePath: { eq: "team/team37.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team38: file(relativePath: { eq: "team/team38.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540

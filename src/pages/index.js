@@ -28,13 +28,13 @@ const IndexPage = ({ data }) => (
       />
     </Helmet>
     <SEO title="Holzbau" />
-    <Slider />
+    <Slider data={data} />
     <AnimationHB data={data} />
     <AnimationS />
     <section>
       <Cta />
       <BoxGrid data={data} />
-      <SliderCenter />
+      <SliderCenter data={data} />
       <Cta />
     </section>
   </Layout>
@@ -94,33 +94,123 @@ export const query = graphql`
         }
       }
     }
-    hbslide1: file(relativePath: { eq: "hb-slide1.jpg" }) {
+    slide1: file(relativePath: { eq: "slide-thin1.jpg" }) {
       childImageSharp {
-        fixed(
-          height: 400
-          traceSVG: { background: "#ffff", color: "#f3e3d9" }
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
-          ...GatsbyImageSharpFixed_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
-    hbslide2: file(relativePath: { eq: "hb-slide2.jpg" }) {
+    slide2: file(relativePath: { eq: "slide-thin2.jpg" }) {
       childImageSharp {
-        fixed(
-          height: 400
-          traceSVG: { background: "#ffff", color: "#f3e3d9" }
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
-          ...GatsbyImageSharpFixed_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
-    hbslide3: file(relativePath: { eq: "hb-slide3.jpg" }) {
+    slide3: file(relativePath: { eq: "slide-thin3.jpg" }) {
       childImageSharp {
-        fixed(
-          height: 400
-          traceSVG: { background: "#ffff", color: "#f3e3d9" }
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
-          ...GatsbyImageSharpFixed_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    slide4: file(relativePath: { eq: "slide-thin4.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    slide5: file(relativePath: { eq: "slide-thin5.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    slide6: file(relativePath: { eq: "slide-thin6.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    slide7: file(relativePath: { eq: "slide-thin7.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    slide8: file(relativePath: { eq: "slide-thin8.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    centerslide1: file(relativePath: { eq: "testcenter1.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    centerslide2: file(relativePath: { eq: "testcenter2.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    centerslide3: file(relativePath: { eq: "testcenter3.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    centerslide4: file(relativePath: { eq: "testcenter4.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }

@@ -1,14 +1,7 @@
 import React, { Component } from "react"
 import Slider from "react-slick"
+import Img from "gatsby-image"
 import styled from "@emotion/styled"
-import Pic1 from "../../images/slide-thin1.jpg"
-import Pic2 from "../../images/slide-thin2.jpg"
-import Pic3 from "../../images/slide-thin3.jpg"
-import Pic4 from "../../images/slide-thin4.jpg"
-import Pic5 from "../../images/slide-thin5.jpg"
-import Pic6 from "../../images/slide-thin6.jpg"
-import Pic7 from "../../images/slide-thin7.jpg"
-import Pic8 from "../../images/slide-thin8.jpg"
 
 const Buttons = styled.div`
   position: absolute;
@@ -87,28 +80,28 @@ export default class Responsive extends Component {
       <Container>
         <Slider ref={c => (this.slider = c)} {...settings}>
           <div key={1}>
-            <img src={Pic1} alt="" />
+            <Img fluid={this.props.data.slide1.childImageSharp.fluid} alt="" />
           </div>
           <div key={2}>
-            <img src={Pic2} alt="" />
+            <Img fluid={this.props.data.slide2.childImageSharp.fluid} alt="" />
           </div>
           <div key={3}>
-            <img src={Pic3} alt="" />
+            <Img fluid={this.props.data.slide3.childImageSharp.fluid} alt="" />
           </div>
           <div key={4}>
-            <img src={Pic4} alt="" />
+            <Img fluid={this.props.data.slide4.childImageSharp.fluid} alt="" />
           </div>
           <div key={5}>
-            <img src={Pic5} alt="" />
+            <Img fluid={this.props.data.slide5.childImageSharp.fluid} alt="" />
           </div>
           <div key={6}>
-            <img src={Pic6} alt="" />
+            <Img fluid={this.props.data.slide6.childImageSharp.fluid} alt="" />
           </div>
           <div key={7}>
-            <img src={Pic7} alt="" />
+            <Img fluid={this.props.data.slide7.childImageSharp.fluid} alt="" />
           </div>
           <div key={8}>
-            <img src={Pic8} alt="" />
+            <Img fluid={this.props.data.slide8.childImageSharp.fluid} alt="" />
           </div>
         </Slider>
         <Buttons>
