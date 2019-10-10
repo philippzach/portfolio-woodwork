@@ -11,6 +11,7 @@ const Tueren = ({ data }) => {
         headerText="Türen"
         paragraph="Tür ist nicht gleich Tür. Wir fertigen und montieren Ihre Innen- oder Aussentür nach Mass und veredeln sie nach Wunsch – von der farbig gespritzten bis zur gebürsteten und geölten Oberfläche aus nachhaltig gewonnenem Holz oder Altholz. Selbstverständlich kümmern wir uns auch um die saubere und fachgerechte Türmontage."
         subParagraph=""
+        data={data}
       />
     </div>
   )

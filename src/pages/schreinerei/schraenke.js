@@ -11,6 +11,7 @@ const schraenke = ({ data }) => {
         headerText="Schränke"
         paragraph="Sie sind auf der Suche nach einem neuen Einbauschrank oder einer Garderobe, die perfekt in die vorhandene Bausubstanz passt? Wir kommen vorbei und beraten Sie gerne in Sachen Schreinerarbeiten und Möbelmontage."
         subParagraph=""
+        data={data}
       />
     </div>
   )
