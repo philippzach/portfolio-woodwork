@@ -12,6 +12,8 @@ const Aufstockung = ({ data }) => {
         paragraph="Möchten Sie Ihr Grundstück mit einer zweiten Wohnung oder zusätzlichem Wohnraum besser nutzen und gleichzeitig die vorhandene Substanz bewahren? Dann ist Holzbau die erste Wahl und wir sind der richtige Partner. Unsere Planer sind versiert darin, modernsten Ansprüchen entsprechende und statisch elegante Lösungen zu erarbeiten."
         subParagraph=""
         data={data}
+        seoTitle="Holzbau | Aufstockungen"
+        seoDescription="Aufstocken – Raum für mehr schaffen. Gerne eins obendrauf mit Holz? Wer gern mehr Platzzur Verfügung hätte, aber kein Land, ist bei Holzaufstockungen richtig."
       />
     </div>
   )

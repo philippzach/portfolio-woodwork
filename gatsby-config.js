@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Wohlgnesinger Holzbau & Schreinerei | Schweiz `,
-    description: `Wohlgensinger Site`,
+    title: `Wohlgensinger AG | `,
+    description: `Holzbau & Schreinerei | SchweizWohlgensinger Site`,
     author: `@philippzach`,
   },
   plugins: [

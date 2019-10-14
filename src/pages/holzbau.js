@@ -51,7 +51,7 @@ const Grid = styled.div`
 
 const Holzbau = ({ data }) => (
   <Layout data={data.landing} text="Holzbau" color="#5D3D30">
-    <SEO title="Holzbau" />
+    <SEO title="Holzbau | Innovativer Holzbau" description="Aufstockungen, Umbauten, Neubau, Anbau, Ersatzneubau – Wohlgensinger ist Ihr Partner in Sachen Holzbau mit Fokus auf Regionalität und Qualität." />
     <Container>
       <Background>
         <Left>

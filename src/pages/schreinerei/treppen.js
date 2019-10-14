@@ -12,6 +12,8 @@ const Treppen = ({ data }) => {
         paragraph="Edle Holztreppen sind ein zentrales und funktionales Schmuckstück im Haus. Gerne kombinieren wir wertigen, massiven Treppenbau / Holzbau auch mit Stahl oder Glas und fertigen Ihre Treppe ganz nach Ihrem Wunsch."
         subParagraph=""
         data={data}
+        seoTitle="Schreinerei | Treppen"
+        seoDescription="Edle Holztreppen sind zentrale und funktionale Elemente im Haus –wir fertigen wertige Treppen aus Holz ganz nach Ihrem Wunsch."
       />
     </div>
   )

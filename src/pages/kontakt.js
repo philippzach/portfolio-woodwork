@@ -46,7 +46,7 @@ const Meeting = styled.h2`
 
 const Kontakt = ({ data }) => (
   <Layout data={data.landingSmall} text="">
-    <SEO title="Kontakt" />
+    <SEO title="Holzbau & Schreinerei | Kontakt" description="Melden Sie sich jetzt persönlich bei uns –wir beraten Sie gerne unverbindlich zu allen Themen rund um Holz." />
     <Text>
       <Heading>Kontakt</Heading>
       <Phone>

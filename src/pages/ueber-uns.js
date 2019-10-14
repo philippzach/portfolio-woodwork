@@ -107,7 +107,7 @@ const Grid = styled.div`
 
 const About = ({ data }) => (
   <Layout data={data.landingSmall} text="Über Uns">
-    <SEO title="Über Uns" />
+    <SEO title="Holzbau & Schreinerei | Über uns" description="Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch." />
     <Container>
       <Spacer />
       <FiftyContainerReverse>
@@ -360,7 +360,7 @@ const About = ({ data }) => (
         />
         <TeamMember
           photo={data.team7}
-          name="Albert Stillhart"
+          name="Alfred Stillhart"
           jobTitle="Holzbau Facharbeiter"
           education=""
           phone=""
@@ -520,7 +520,7 @@ const About = ({ data }) => (
         />
         <TeamMember
           photo={data.team27}
-          name="Ralph Löhrer"
+          name="Raphael Löhrer"
           jobTitle="Zimmermann"
           education=""
           phone=""

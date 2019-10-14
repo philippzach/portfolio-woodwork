@@ -12,6 +12,8 @@ const Umbau = ({ data }) => {
         paragraph="Sie möchten Ihr Haus umbauen? Wir planen Ihren Umbau mit viel Herz und Verstand, sei es im modernen Stil oder auch in Kombination mit Altholz. Wir haben ausserdem die passenden Konzepte und Lösungen, wenn die Raumhöhe knapp ist, die Gebäudehülle erneuert werden oder die Balkenlage statisch verbessert werden muss."
         subParagraph=""
         data={data}
+        seoTitle="Holzbau | Umbau"
+        seoDescription="Aufstocken – Raum für mehr schaffen. Gerne eins obendrauf mit Holz? Wer gern mehr Platzzur Verfügung hätte, aber kein Land, ist bei Holzaufstockungen richtig."
       />
     </div>
   )

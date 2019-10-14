@@ -8,10 +8,12 @@ const Reperaturen = ({ data }) => {
       <Template
         header={data.landing}
         select={data.select}
-        headerText="Reperaturen"
+        headerText="Reparaturen"
         paragraph="Haben Sie ein Küchentürli oder eine Eingangstür, die klemmt? Kein Problem – rufen Sie uns an und wir kommen vorbei. Keine Arbeiten und keine Aufträge sind für unsere Möbelschreiner zu klein, egal ob es sich um Ausbesserungsarbeiten oder Einbauten handelt."
         subParagraph=""
         data={data}
+        seoTitle="Schreinerei | Reparaturen"
+        seoDescription="Sie suchen einen Einbauschrank oder eine Garderobe, die perfekt passt? Wir beraten Sie gerne in Sachen Schreinerarbeit und Möbelmontage.  "
       />
     </div>
   )

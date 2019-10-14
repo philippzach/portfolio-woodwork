@@ -77,6 +77,7 @@ const Footer = () => (
           <Link to="/services">Services</Link>
           <Link to="/blog">News</Link>
           <Link to="/kontakt">Kontakt</Link>
+          <Link to="/impressum">Impressum</Link>
           <span></span>
         </OtherMenu>
         <OtherHolzbau>
@@ -133,9 +134,7 @@ const Footer = () => (
           © {new Date().getFullYear()},{` `}
           Wohlgensinger AG
         </span>
-        <span>
-          <img src={Google} alt="google icon" />
-        </span>
+        <span style={{ fontSize: "0.65em" }}></span>
       </Copyright>
     </Container>
   </FooterBg>

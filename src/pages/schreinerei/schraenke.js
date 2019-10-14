@@ -12,6 +12,8 @@ const schraenke = ({ data }) => {
         paragraph="Sie sind auf der Suche nach einem neuen Einbauschrank oder einer Garderobe, die perfekt in die vorhandene Bausubstanz passt? Wir kommen vorbei und beraten Sie gerne in Sachen Schreinerarbeiten und Möbelmontage."
         subParagraph=""
         data={data}
+        seoTitle="Schreinerei | Schränke"
+        seoDescription="Sie suchen einen Einbauschrank oder eine Garderobe, die perfekt passt? Wir beraten Sie gerne in Sachen Schreinerarbeit und Möbelmontage. "
       />
     </div>
   )

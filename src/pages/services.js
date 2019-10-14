@@ -85,7 +85,7 @@ const Spacer = styled.div`
 
 const Services = ({ data }) => (
   <Layout data={data.landingSmall} text="Services">
-    <SEO title="Unser Service" />
+    <SEO title="Holzbau & Schreinerei | Services" description="Unsere Dienstleistungen umfassen Entwurf, Holzbau, Schreinerei, Möbelmontage und die Gesamtkoordination des Bauvorhabens. Jetzt kontaktieren!" />
     <Container>
       <Spacer />
       <FiftyContainer>

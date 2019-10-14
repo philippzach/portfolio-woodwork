@@ -27,7 +27,7 @@ const IndexPage = ({ data }) => (
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
     </Helmet>
-    <SEO title="Holzbau" />
+    <SEO title="Gelebte Innovation mit Holz" description="Wohlgensinger ist ihr innovativer Holzbauer und Schreiner für Kompetenz in Umbau, Anbau,Neubau und Möbel." />
     <Slider data={data} />
     <AnimationHB data={data} />
     <AnimationS />

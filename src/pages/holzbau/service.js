@@ -12,6 +12,8 @@ const Service = ({ data }) => {
         paragraph="Müssen Sie das Dachgesims, die Fassade oder einzelne Balken erneuern? Benötigen Sie eine Trennwand oder eine neue Decke? Kontaktieren Sie uns, wir zeigen Ihnen gerne unsere eleganten Lösungen aus Holz und setzen diese für Sie in die Tat um."
         subParagraph=""
         data={data}
+        seoTitle="Holzbau | Service"
+        seoDescription="Neue Fassade aus Holz, neues Dachgesims oder eine neue Decke? Wir haben für jeden Fall elegante Lösungen aus Holz."
       />
     </div>
   )

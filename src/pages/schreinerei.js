@@ -51,7 +51,7 @@ const Grid = styled.div`
 
 const Schreinerei = ({ data }) => (
   <Layout data={data.landing} text="Schreinerei" color="#B7A07C">
-    <SEO title="Schreinerei" />
+    <SEO title="Schreinerei | Gelebte Innovation aus Holz" description="Wohlgensinger setzt auf Qualität und Innovation – wir bieten ein vielseitiges Angebot an individuellen Möbeln aus unserer Schreinerei und Zimmerei. " />
     <Container>
       <Background>
         <Left>
