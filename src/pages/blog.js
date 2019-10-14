@@ -26,7 +26,7 @@ const Heading = styled.h2`
 
 const Blog = ({ data }) => (
   <Layout data={data.landingSmall} text="Blog/News">
-    <SEO title="Holzbau & Schreinerei |News" description="Wenn Sie Informationen rund um den Holzbau oder Neuigkeiten aus unserer Schreinerei suchen, sind Sie hier genau richtig." />
+    <SEO title="Holzbau & Schreinerei | News" description="Wenn Sie Informationen rund um den Holzbau oder Neuigkeiten aus unserer Schreinerei suchen, sind Sie hier genau richtig." />
 
     <Container>
       <ContainerSmall>
