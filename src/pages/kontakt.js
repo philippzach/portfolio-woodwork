@@ -201,7 +201,11 @@ const Kontakt = ({ data }) => (
             </svg>
           </button>
         </a>
-        <a href="https://meetings.hubspot.com/web19">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://meetings.hubspot.com/web19"
+        >
           <button className="schedule">
             <svg
               className="schedulephone"
@@ -326,7 +330,11 @@ const Kontakt = ({ data }) => (
         gerne ein Treffen mit Ihnen.
       </Meeting>
       <Buttons>
-        <a href="https://meetings.hubspot.com/web19">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://meetings.hubspot.com/web19"
+        >
           <button className="meeting">
             <svg
               width="23px"
