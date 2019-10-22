@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "@emotion/styled"
+import Logo from "../../images/wohlgensinger_logo.svg"
 import Google from "../../images/google.svg"
 
 const FooterBg = styled.footer`
@@ -58,6 +59,7 @@ const Copyright = styled.div`
   font-weight: 800;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
 const Contact = styled.div`
   @media (max-width: 669px) {
@@ -71,6 +73,10 @@ const ButtonContainer = styled.div`
     display: flex;
     justify-content: center;
   }
+`
+const LogoImg = styled.img`
+  margin-bottom: 0;
+  max-width: 150px;
 `
 
 const Footer = () => (
@@ -139,12 +145,17 @@ const Footer = () => (
       </Grid>
       <hr />
       <Copyright>
+        <LogoImg
+          style={{ marginBottom: "0" }}
+          src={Logo}
+          alt="Wohlgensinger AG Logo"
+        />
+
         <span style={{ fontSize: "0.65em" }}>
           © {new Date().getFullYear()}
           {` `}|{` `}
           Wohlgensinger AG
         </span>
-        <span style={{ fontSize: "0.65em" }}></span>
       </Copyright>
     </Container>
   </FooterBg>
