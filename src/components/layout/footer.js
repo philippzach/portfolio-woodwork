@@ -66,6 +66,12 @@ const Contact = styled.div`
     text-align: center;
   }
 `
+const ButtonContainer = styled.div`
+  @media (max-width: 650px) {
+    display: flex;
+    justify-content: center;
+  }
+`
 
 const Footer = () => (
   <FooterBg>
@@ -105,6 +111,7 @@ const Footer = () => (
           <Span>
             <b>Wohlgensinger AG</b>
           </Span>
+          <Span>Holzbau | Schreinerei</Span>
           <Spacer />
           <Span>Aufeld 10</Span>
           <Span>9607 Mosnang</Span>
@@ -123,15 +130,18 @@ const Footer = () => (
             </a>
           </Span>
           <Spacer />
-          <Link to="/kontakt">
-            <button className="meeting">Kontaktieren Sie uns!</button>
-          </Link>
+          <ButtonContainer>
+            <Link to="/kontakt">
+              <button className="meeting">Kontaktieren Sie uns!</button>
+            </Link>
+          </ButtonContainer>
         </Contact>
       </Grid>
       <hr />
       <Copyright>
         <span style={{ fontSize: "0.65em" }}>
-          © {new Date().getFullYear()},{` `}
+          © {new Date().getFullYear()}
+          {` `}|{` `}
           Wohlgensinger AG
         </span>
         <span style={{ fontSize: "0.65em" }}></span>
