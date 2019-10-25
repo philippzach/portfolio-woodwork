@@ -61,7 +61,7 @@ const IconContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   @media (max-width: 870px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 `
 const Icon = styled.div`
@@ -95,14 +95,14 @@ class boxgrid extends Component {
                 unserer Kinder leisten können.{" "}
               </p>
               <IconContainer>
-                <Icon>
+                {/* <Icon>
                   <img
                     src={Icon1}
                     alt="Wohlgesinger Icon"
                     className="iconfix"
                   />
                   <span>20 Jahre Garantie</span>
-                </Icon>
+                </Icon> */}
                 <Icon>
                   <img
                     src={Icon2}
