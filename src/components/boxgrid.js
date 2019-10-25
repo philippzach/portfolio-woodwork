@@ -136,12 +136,12 @@ class boxgrid extends Component {
                   alt="Wohlgensinger Holzbau Schweiz"
                 />
               </div>
-              <div class="box c">
+              {/* <div class="box c">
                 <Img
                   fluid={this.props.data.box3.childImageSharp.fluid}
                   alt="Wohlgensinger Holzbau Schweiz"
                 />
-              </div>
+              </div> */}
               <div class="box e">
                 <Img
                   fluid={this.props.data.box5.childImageSharp.fluid}
