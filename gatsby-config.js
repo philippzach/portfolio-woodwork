@@ -6,11 +6,14 @@ module.exports = {
   siteMetadata: {
     title: `Wohlgensinger AG | `,
     description: ` | Schweiz`,
+    siteUrl: `https://wohlgensinger.ch`,
     author: `@philippzach`,
   },
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-robots-txt",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `wohlgensinger-ag`,
+        short_name: `Holzbau`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
