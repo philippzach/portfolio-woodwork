@@ -106,7 +106,7 @@ const Grid = styled.div`
 `
 
 const About = ({ data }) => (
-  <Layout data={data.landingSmall} text="Über Uns">
+  <Layout data={data.landingSmall} text="">
     <SEO
       title="Holzbau & Schreinerei | Über uns"
       description="Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch."
@@ -332,7 +332,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team3}
           name="Werner Rütsche"
-          jobTitle="Zimmermann | Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -340,7 +340,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team4}
           name="Jakob Frey"
-          jobTitle="Zimmermann | Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -348,7 +348,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team5}
           name="Luc Baumann"
-          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
           education=""
           phone=""
           email=""
@@ -356,7 +356,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team6}
           name="Marco Bürge"
-          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
           education=""
           phone=""
           email=""
@@ -364,7 +364,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team7}
           name="Alfred Stillhart"
-          jobTitle="Holzbau Facharbeiter"
+          jobTitle="Holzbau-Arbeiter"
           education=""
           phone=""
           email=""
@@ -372,7 +372,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team8}
           name="Reto Breitenmoser"
-          jobTitle="Zimmermann"
+          jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -380,7 +380,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team9}
           name="Jeremy Sennhauser"
-          jobTitle="Zimmermann"
+          jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -388,7 +388,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team10}
           name="Fabio Schefer"
-          jobTitle="Zimmermann in Ausbildung 4. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
           education=""
           phone=""
           email=""
@@ -396,7 +396,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team11}
           name="Norbert Schönenberger"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -404,7 +404,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team12}
           name="Adrian Oberholzer"
-          jobTitle="Zimmermann in Ausbildung 3. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
           education=""
           phone=""
           email=""
@@ -412,7 +412,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team13}
           name="Gianandré Bachmann"
-          jobTitle="Zimmermann"
+          jobTitle="Schreiner / Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -420,7 +420,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team14}
           name="Erwin Bachmann"
-          jobTitle="Polier"
+          jobTitle="Planung & Projektleitung"
           education=""
           phone=""
           email=""
@@ -428,7 +428,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team15}
           name="Sandro Loser"
-          jobTitle="Zimmermann in Ausbildung 1. Lehrjahr"
+          jobTitle="Zimmermann EFZ in Ausbildung 1. Lehrjahr"
           education=""
           phone=""
           email=""
@@ -436,7 +436,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team16}
           name="Fridolin Schönenberger"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Zimmermann EFZ / Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -452,7 +452,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team18}
           name="Thomas Gmür"
-          jobTitle="Schreiner / Vorarbeiter"
+          jobTitle="Schreiner-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -460,7 +460,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team19}
           name="Patrick Rüthemann"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -468,7 +468,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team20}
           name="Patrice Jäger"
-          jobTitle="Schreiner / Vorarbeiter"
+          jobTitle="Schreiner / Oberflächenspezialist"
           education=""
           phone=""
           email=""
@@ -476,7 +476,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team21}
           name="Guido Hollenstein"
-          jobTitle="Holzbau / Facharbeiter"
+          jobTitle="Holzbau-Arbeiter"
           education=""
           phone=""
           email=""
@@ -484,7 +484,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team22}
           name="Ernst Aemisegger"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -492,7 +492,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team23}
           name=" Peter Schnetzer"
-          jobTitle="Polier"
+          jobTitle="Planung & Projektleitung"
           education=""
           phone=""
           email=""
@@ -500,7 +500,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team24}
           name="Florian Senn"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Planung & Projektleitung"
           education=""
           phone=""
           email=""
@@ -516,7 +516,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team26}
           name="Nil Meile"
-          jobTitle="Zimmermann in Ausbildung 2. Lehrjahr"
+          jobTitle="Zimmermann EFZ i.A.2.Lj."
           education=""
           phone=""
           email=""
@@ -524,7 +524,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team27}
           name="Raphael Löhrer"
-          jobTitle="Zimmermann"
+          jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -532,7 +532,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team28}
           name="Reto Loser"
-          jobTitle="Zimmermann in Ausbildung 2. Lehrjahr"
+          jobTitle="Zimmermann EFZ i.A.2.Lj."
           education=""
           phone=""
           email=""
@@ -540,7 +540,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team29}
           name="Lorin Rüegg"
-          jobTitle="Zimmermann in Ausbildung 1. Lehrjahr"
+          jobTitle="Zimmermann EFZ i.A.1.Lj."
           education=""
           phone=""
           email=""
@@ -548,7 +548,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team30}
           name="Rösli Schönenberger"
-          jobTitle="Reinigungsdienst"
+          jobTitle="Facilitymanagement"
           education=""
           phone=""
           email=""
@@ -556,7 +556,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team31}
           name="Fabian Rutz"
-          jobTitle="Holzbauingenieur"
+          jobTitle="Planung & Projektleitung"
           education=""
           phone=""
           email=""
@@ -564,7 +564,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team32}
           name="Julian Meier"
-          jobTitle="Zimmermann in Ausbildung 4. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
           education=""
           phone=""
           email=""
@@ -572,7 +572,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team33}
           name="Damian Schönenberger"
-          jobTitle="Holzbau / Facharbeiter"
+          jobTitle="Holzbearbeiter EBA"
           education=""
           phone=""
           email=""
@@ -580,7 +580,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team34}
           name="Markus Rüegg"
-          jobTitle="Schreiner / Vorarbeiter"
+          jobTitle="Schreiner-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -588,7 +588,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team35}
           name="Beat Strassmann"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -596,7 +596,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team36}
           name="Martin Widmer"
-          jobTitle="Zimmermann / Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -604,7 +604,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team37}
           name="Damian Büsser"
-          jobTitle="Holzbau Techniker"
+          jobTitle="Planung & Projektleitung"
           education=""
           phone=""
           email=""
@@ -612,7 +612,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team38}
           name="Niklaus Bürge"
-          jobTitle="Holzbau / Fachmitarbeiter"
+          jobTitle="Magaziner / Holzbearbeiter"
           education=""
           phone=""
           email=""
@@ -627,13 +627,13 @@ export default About
 
 export const query = graphql`
   query {
-    landingSmall: file(relativePath: { eq: "ueber-uns.jpg" }) {
+    landingSmall: file(relativePath: { eq: "team-long.jpg" }) {
       childImageSharp {
         fluid(
-          maxWidth: 1500
+          maxWidth: 2500
           traceSVG: { background: "#ffff", color: "#4f52" }
         ) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }

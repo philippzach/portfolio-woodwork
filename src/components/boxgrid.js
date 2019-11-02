@@ -3,7 +3,7 @@ import Img from "gatsby-image"
 import styled from "@emotion/styled"
 import "./boxgrid.css"
 
-import Icon1 from "../images/garantie.svg"
+import Icon1 from "../images/plusenergie.svg"
 import Icon2 from "../images/quality.svg"
 import Icon3 from "../images/wood.svg"
 
@@ -95,14 +95,14 @@ class boxgrid extends Component {
                 unserer Kinder leisten können.{" "}
               </p>
               <IconContainer>
-                {/* <Icon>
+                <Icon>
                   <img
                     src={Icon1}
                     alt="Wohlgesinger Icon"
                     className="iconfix"
                   />
-                  <span>20 Jahre Garantie</span>
-                </Icon> */}
+                  <span>Plus Energie Haus</span>
+                </Icon>
                 <Icon>
                   <img
                     src={Icon2}
