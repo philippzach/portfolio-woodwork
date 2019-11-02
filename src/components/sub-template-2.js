@@ -39,7 +39,9 @@ const Right = styled.div`
   }
 `
 
-const Header = styled.h1``
+const Header = styled.h1`
+  font-family: "Futura-Bold";
+`
 const Paragraph = styled.p``
 const TextContainer = styled.div`
   max-width: 25em;

@@ -29,7 +29,7 @@ const Right = styled.div`
   }
 `
 const Heading = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   font-size: 2em;
   margin-bottom: 0.5em;
@@ -65,15 +65,15 @@ const IconContainer = styled.div`
   }
 `
 const Icon = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span {
     text-align: center;
-    font-family: futura;
+    font-family: "Futura-Medium";
     padding-top: 15px;
-}
-}`
+  }
+`
 
 class boxgrid extends Component {
   render() {

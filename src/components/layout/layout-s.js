@@ -45,7 +45,7 @@ const TextBox = styled.div`
 `
 const WhiteText = styled.h1`
   color: white;
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   text-transform: uppercase;
   position: relative;

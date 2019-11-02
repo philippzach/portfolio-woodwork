@@ -70,11 +70,11 @@ const FiftyFlexCenterTextTop = styled.div`
 `
 
 const TopHeading = styled.h1`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
 `
 const Heading = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
 `
 const Paragraph = styled.p``
@@ -85,7 +85,10 @@ const Spacer = styled.div`
 
 const Services = ({ data }) => (
   <Layout data={data.landingSmall} text="Services">
-    <SEO title="Holzbau & Schreinerei | Services" description="Unsere Dienstleistungen umfassen Entwurf, Holzbau, Schreinerei, Möbelmontage und die Gesamtkoordination des Bauvorhabens. Jetzt kontaktieren!" />
+    <SEO
+      title="Holzbau & Schreinerei | Services"
+      description="Unsere Dienstleistungen umfassen Entwurf, Holzbau, Schreinerei, Möbelmontage und die Gesamtkoordination des Bauvorhabens. Jetzt kontaktieren!"
+    />
     <Container>
       <Spacer />
       <FiftyContainer>

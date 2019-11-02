@@ -7,7 +7,7 @@ const Container = styled.div`
   margin: 10% 0;
 `
 const Heading = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   font-size: 2em;
   margin-bottom: 0.5em;

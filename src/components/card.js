@@ -12,7 +12,7 @@ const Card = styled.div`
   }
 `
 const Heading = styled.h3`
-  font-family: futura;
+  font-family: "Futura-Bold";
   color: white;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px;
   font-weight: bold;

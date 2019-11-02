@@ -6,7 +6,7 @@ import Layout from "../components/layout/layout-s"
 import SEO from "../components/seo"
 
 const Heading = styled.h1`
-  font-family: futura;
+  font-family: "Futura-Bold";
 
   margin: 1.5em 0 1em 0;
 `
@@ -33,7 +33,7 @@ const Buttons = styled.div`
   justify-content: space-around;
 `
 const Meeting = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   font-size: 1.2em;
   line-height: 1.5em;

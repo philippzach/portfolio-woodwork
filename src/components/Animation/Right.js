@@ -23,7 +23,7 @@ const NumberBox = styled.div`
 const LineBox = styled.div``
 const NumbersBox = styled.div`
   display: grid;
-  font-family: futura;
+  font-family: "Futura-Medium";
   font-weight: bold;
   padding-left: 20px;
   margin-top: 4px;
@@ -39,7 +39,7 @@ const Numbers = styled.span`
 `
 
 const Heading = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   font-size: 2.3em;
 `

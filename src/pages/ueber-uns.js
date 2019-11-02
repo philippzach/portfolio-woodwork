@@ -83,12 +83,12 @@ const Spacer = styled.div`
   padding: 3em;
 `
 const TopHeading = styled.h1`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
   line-height: 1.25;
 `
 const Heading = styled.h2`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: bold;
 `
 const Paragraph = styled.p``
@@ -107,7 +107,10 @@ const Grid = styled.div`
 
 const About = ({ data }) => (
   <Layout data={data.landingSmall} text="Über Uns">
-    <SEO title="Holzbau & Schreinerei | Über uns" description="Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch." />
+    <SEO
+      title="Holzbau & Schreinerei | Über uns"
+      description="Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch."
+    />
     <Container>
       <Spacer />
       <FiftyContainerReverse>
@@ -118,7 +121,7 @@ const About = ({ data }) => (
           />
         </FiftyTop>
         <FiftyFlexCenterTextTop>
-          <svg
+          {/*  <svg
             width="22px"
             height="22px"
             viewBox="0 0 22 22"
@@ -143,9 +146,9 @@ const About = ({ data }) => (
                 ></path>
               </g>
             </g>
-          </svg>
+          </svg> */}
           <SpanHeader>Die Firma</SpanHeader>
-          <TopHeading>Wohlgensinger AG Holzbau seid 1941</TopHeading>
+          <TopHeading>Wohlgensinger AG Holzbau seit 1941</TopHeading>
           <p>
             Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes
             Haus bauen würden: kompetent, innovativ und ästhetisch.
@@ -174,7 +177,7 @@ const About = ({ data }) => (
             Orientierung
           </Heading>
           <Paragraph>
-            Wir denken im sinne des Kunden mit und holen seine bedürfnisse ab.
+            Wir denken im Sinne des Kunden mit und holen seine Bedürfnisse ab.
             Dadurch werden die Wünsche und Ziele des Kunden erfüllt.
           </Paragraph>
         </FiftyFlexCenterText>
@@ -211,8 +214,8 @@ const About = ({ data }) => (
         <FiftyFlexCenterText>
           <Heading>Lern - Wille</Heading>
           <Paragraph>
-            Wir Lernen aus fehlern und verbessern uns aus diesen. Wir finden
-            Innovation und Optimierungen die dem kunden und dem Betrieb
+            Wir lernen aus Fehlern und verbessern uns aus diesen. Wir finden
+            Innovation und Optimierungen die dem Kunden und dem Betrieb
             weiterhefen.
           </Paragraph>
         </FiftyFlexCenterText>
@@ -305,7 +308,7 @@ const About = ({ data }) => (
       <SpanHeader>Unser</SpanHeader>
       <TopHeading>Team</TopHeading>
       <p style={{ maxWidth: "35em" }}>
-        Unser Team aus erfahrenen und top motivierten Mitarbeitern freut sich
+        Unser Team aus Erfahrenen und top motivierten Mitarbeitern freut sich
         auf Sie. Vom Zimmermann, Möbelschreiner, Schreiner, Bauplaner, Bauleiter
         und vielen anderen ist alles dabei.
       </p>

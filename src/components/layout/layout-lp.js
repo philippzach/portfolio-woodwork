@@ -41,7 +41,7 @@ const ButtonContainer = styled.div`
 `
 
 const Heading = styled.h1`
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: 800;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;

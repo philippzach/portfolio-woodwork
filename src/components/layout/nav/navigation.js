@@ -62,12 +62,12 @@ const List = styled.ul`
 const Grid = styled.div`
   display: grid;
   list-style: none;
-  font-family: Futura;
+  font-family: "Futura-Medium";
   font-weight: 400;
   font-size: 14px;
   color: #6c6c6c;
   @media (min-width: 670px) {
-    grid-template-columns: 20% 45% 35%;
+    grid-template-columns: 15% 55% 30%;
     align-items: center;
   }
   @media (max-width: 719px) {
@@ -97,7 +97,7 @@ const MobileList = styled.div`
     color: black;
 
     text-transform: uppercase;
-    font-family: futura;
+    font-family: "Futura-Medium";
     padding-right: 33%;
   }
 `
@@ -154,7 +154,7 @@ class NavigationBar extends Component {
             margin: `0 auto`,
             background: `white`,
             maxWidth: 960,
-            padding: `0 1.45rem`,
+            padding: `0 .5rem`,
             boxShadow: "rgba(0,0,0,0.09) 4px 6px 14px",
           }}
         >
@@ -248,11 +248,11 @@ class NavigationBar extends Component {
                   <Link to="/schreinerei/schraenke">
                     <li>Schränke</li>
                   </Link>
-                  <Link to="/schreinerei/reparaturen">
-                    <li>Reparaturen</li>
-                  </Link>
                   <Link to="/schreinerei/moebel-weingestell">
                     <li>Weingestell | Möbel</li>
+                  </Link>
+                  <Link to="/schreinerei/reparaturen">
+                    <li>Reparaturen</li>
                   </Link>
                 </ul>
               </li>
@@ -264,6 +264,16 @@ class NavigationBar extends Component {
                   }}
                 >
                   Services
+                </Link>
+              </li>
+              <li style={{ margin: 0 }}>
+                <Link
+                  to="/ueber-uns"
+                  style={{
+                    textDecoration: `none`,
+                  }}
+                >
+                  Über uns
                 </Link>
               </li>
               <li style={{ margin: 0 }}>

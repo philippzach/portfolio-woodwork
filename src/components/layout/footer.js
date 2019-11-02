@@ -13,7 +13,7 @@ const Container = styled.div`
   padding: 0 0 1rem 0;
 `
 const Grid = styled.div`
-  font-family: futura;
+  font-family: "Futura";
   font-size: 0.8em;
 
   padding: 1.45rem 1.5em;
@@ -55,7 +55,7 @@ const OtherHolzbau = styled.div`
 `
 const Copyright = styled.div`
   padding: 0 1.5em;
-  font-family: futura;
+  font-family: "Futura-Bold";
   font-weight: 800;
   display: flex;
   justify-content: space-between;
@@ -84,7 +84,9 @@ const Footer = () => (
     <Container>
       <Grid>
         <OtherMenu>
-          <span></span>
+          <Link to="/">
+            <b>Home</b>
+          </Link>
           <Link to="/ueber-uns">Über uns</Link>
           <Link to="/services">Services</Link>
           <Link to="/blog">News</Link>
@@ -110,8 +112,8 @@ const Footer = () => (
           <Link to="/schreinerei/tueren">Türen</Link>
           <Link to="/schreinerei/treppen">Treppen</Link>
           <Link to="/schreinerei/schraenke">Schränke</Link>
-          <Link to="/schreinerei/reparaturen">Reparaturen</Link>
           <Link to="/schreinerei/moebel-weingestell">Möbel | Weingestell</Link>
+          <Link to="/schreinerei/reparaturen">Reparaturen</Link>
         </OtherSchreinerei>
         <Contact>
           <Span>
