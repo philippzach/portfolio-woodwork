@@ -317,7 +317,7 @@ const About = ({ data }) => (
           photo={data.team1}
           name="Simon Rutz"
           jobTitle="Geschäftsführer | Inhaber"
-          education=""
+          education="Dipl. Holzingenieur FH"
           phone=""
           email=""
         />
@@ -421,14 +421,14 @@ const About = ({ data }) => (
           photo={data.team14}
           name="Erwin Bachmann"
           jobTitle="Planung & Projektleitung"
-          education=""
+          education="Holzbau - Polier"
           phone=""
           email=""
         />
         <TeamMember
           photo={data.team15}
           name="Sandro Loser"
-          jobTitle="Zimmermann EFZ in Ausbildung 1. Lehrjahr"
+          jobTitle="Zimmermann EFZ i. A. 1 Lj."
           education=""
           phone=""
           email=""
@@ -436,7 +436,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team16}
           name="Fridolin Schönenberger"
-          jobTitle="Zimmermann EFZ / Holzbau-Vorarbeiter"
+          jobTitle="Holzbau-Vorarbeiter"
           education=""
           phone=""
           email=""
@@ -445,7 +445,7 @@ const About = ({ data }) => (
           photo={data.team17}
           name="Andreas Schori"
           jobTitle="Verkaufs- / Projektleiter"
-          education=""
+          education="Bauleiter"
           phone=""
           email=""
         />
@@ -493,7 +493,7 @@ const About = ({ data }) => (
           photo={data.team23}
           name=" Peter Schnetzer"
           jobTitle="Planung & Projektleitung"
-          education=""
+          education="Holzbau - Polier"
           phone=""
           email=""
         />
@@ -501,7 +501,7 @@ const About = ({ data }) => (
           photo={data.team24}
           name="Florian Senn"
           jobTitle="Planung & Projektleitung"
-          education=""
+          education="Holzbau - Vorarbeiter"
           phone=""
           email=""
         />
@@ -557,7 +557,7 @@ const About = ({ data }) => (
           photo={data.team31}
           name="Fabian Rutz"
           jobTitle="Planung & Projektleitung"
-          education=""
+          education="Holzbauingenieur BSc FH"
           phone=""
           email=""
         />
@@ -605,7 +605,7 @@ const About = ({ data }) => (
           photo={data.team37}
           name="Damian Büsser"
           jobTitle="Planung & Projektleitung"
-          education=""
+          education="Holzbau – Techniker HF"
           phone=""
           email=""
         />
