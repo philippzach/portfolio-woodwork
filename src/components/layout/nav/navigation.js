@@ -35,6 +35,9 @@ const List = styled.ul`
     margin-bottom: 0;
     padding-top: calc(1.45rem / 2);
     padding-bottom: calc(1.45rem / 2);
+    @media (min-width: 1800px) {
+      padding-right: 1vw;
+    }
     ul {
       z-index: 10;
       li {
