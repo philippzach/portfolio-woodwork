@@ -8,6 +8,8 @@ const Weingestell = ({ data }) => {
       <Template
         header={data.landing}
         select={data.select}
+        seoTitle="Schreinerei | Möbel & Weingestelle"
+        seoDescription="Sie suchen einen Weingestell oder eine Garderobe, die perfekt passt? Wir beraten Sie gerne in Sachen Schreinerarbeit und Möbelmontage."
         headerText="Möbel"
         paragraph="In unserer Schreinerei stellen wir mit viel Herzblut Ihre Badmöbel, Tische, Sideboards oder andere Möbelstücke nach Ihren Vorstellungen an. Egal, ob Sie Ihr Haus umbauen oder ein zusätzliches Möbelstück benötigen, an unseren hochwertigen Holzmöbeln werden Sie lange Freude haben. "
         subParagraph=""

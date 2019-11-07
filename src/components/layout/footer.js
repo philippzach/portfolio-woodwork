@@ -13,7 +13,7 @@ const Container = styled.div`
   padding: 0 0 1rem 0;
 `
 const Grid = styled.div`
-  font-family: "Futura";
+  font-family: "Futura-Medium";
   font-size: 0.8em;
 
   padding: 1.45rem 1.5em;

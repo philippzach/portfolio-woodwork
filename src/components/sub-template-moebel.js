@@ -83,7 +83,10 @@ export default class subTemplate2 extends Component {
     return (
       <div>
         <Layout data={this.props.header} text="">
-          <SEO title={this.props.headerText} />
+          <SEO
+            title={this.props.seoTitle}
+            description={this.props.seoDescription}
+          />
           <Container>
             <Left>
               <TextContainer>
