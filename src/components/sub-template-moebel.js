@@ -57,7 +57,9 @@ const Left2 = styled.div`
   }
 `
 
-const Header = styled.h1``
+const Header = styled.h1`
+  font-family: "Futura-Bold";
+`
 const Paragraph = styled.p``
 const TextContainer = styled.div`
   max-width: 25em;
@@ -66,6 +68,14 @@ const TextContainer = styled.div`
 
 const Spacer = styled.div`
   padding: 2em 0;
+`
+const PriceBold = styled.span`
+  font-family: "Futura-Bold";
+  display: block;
+`
+const Price = styled.span`
+  font-family: "Futura";
+  display: block;
 `
 
 export default class subTemplate2 extends Component {
@@ -102,6 +112,17 @@ export default class subTemplate2 extends Component {
                 <Header>{this.props.headerText2}</Header>
                 <Paragraph>{this.props.paragraph2}</Paragraph>
                 <Paragraph>{this.props.subParagraph}</Paragraph>
+                <Paragraph>
+                  <PriceBold>{this.props.weingestell1}</PriceBold>
+                  <Price>{this.props.preis1}</Price>
+                </Paragraph>
+                <Paragraph>
+                  <PriceBold>{this.props.weingestell2}</PriceBold>
+                  <Price>{this.props.preis2}</Price>
+                </Paragraph>
+                <Paragraph style={{ fontStyle: "italic" }}>
+                  {this.props.groesse}
+                </Paragraph>
               </TextContainer>
             </Right2>
           </Container>

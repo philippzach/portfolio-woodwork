@@ -13,6 +13,11 @@ const Weingestell = ({ data }) => {
         subParagraph=""
         headerText2="Weingestelle"
         paragraph2="Unser Weingestell aus massivem Schweizer Fichtenholz überzeugt Liebhaber edler Tropfen seit Langem. Es ist in verschiedenen Grössen und mit Platz für bis zu 250 Flaschen verfügbar – ein Möbelstück also, mit dem Sie so schnell nicht auf dem Trockenen sitzen werden."
+        weingestell1="Weingestell in Fichte natur"
+        preis1="Fr. 560.00 exkl. MwSt"
+        weingestell2="Weingestell in Fichte braun lasiert"
+        preis2="Fr. 590.00 exkl. MwSt"
+        groesse="106 x 195 x 33cm, kürzbar bis 17cm, fertig zusammengebaut"
         select2={data.select2}
         data={data}
       />

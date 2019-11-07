@@ -86,25 +86,25 @@ export default class SliderHolzbau extends Component {
           <div key={2}>
             <Img fluid={this.props.data.slide2.childImageSharp.fluid} alt="" />
           </div>
-          <div key={3}>
+          {/* <div key={3}>
             <Img fluid={this.props.data.slide3.childImageSharp.fluid} alt="" />
-          </div>
-          <div key={4}>
+          </div> */}
+          <div key={3}>
             <Img fluid={this.props.data.slide4.childImageSharp.fluid} alt="" />
           </div>
-          <div key={5}>
+          <div key={4}>
             <Img fluid={this.props.data.slide5.childImageSharp.fluid} alt="" />
           </div>
-          <div key={6}>
+          <div key={5}>
             <Img fluid={this.props.data.slide6.childImageSharp.fluid} alt="" />
           </div>
-          <div key={7}>
+          <div key={6}>
             <Img fluid={this.props.data.slide7.childImageSharp.fluid} alt="" />
           </div>
-          <div key={8}>
+          <div key={7}>
             <Img fluid={this.props.data.slide8.childImageSharp.fluid} alt="" />
           </div>
-          <div key={9}>
+          <div key={8}>
             <Img fluid={this.props.data.slide9.childImageSharp.fluid} alt="" />
           </div>
         </Slider>
