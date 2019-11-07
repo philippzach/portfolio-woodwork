@@ -55,7 +55,7 @@ const Kontakt = ({ data }) => (
       <Phone>
         <a href="tel:+410719831520">+41 (0)71 983 15 20</a>
       </Phone>
-      <Hours>Montag bis Freitag von 08:00 bis 17:00</Hours>
+      <Hours>Montag bis Freitag von 07:00 bis 17:30</Hours>
 
       <Buttons>
         <a href="tel:+410719831520">
