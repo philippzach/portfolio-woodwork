@@ -30,6 +30,7 @@ const ImageContainer = styled.header`
   }
 `
 const Title = styled.h1`
+  font-family: "Futura-Bold";
   font-size: 5vh;
   padding-top: 1em;
   @media (min-width: 600px) {
