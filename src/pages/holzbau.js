@@ -50,14 +50,17 @@ const Grid = styled.div`
 `
 
 const Holzbau = ({ data }) => (
-  <Layout data={data.landing} text="Holzbau" color="#5D3D30">
-    <SEO title="Holzbau | Innovativer Holzbau" description="Aufstockungen, Umbauten, Neubau, Anbau, Ersatzneubau – Wohlgensinger ist Ihr Partner in Sachen Holzbau mit Fokus auf Regionalität und Qualität." />
+  <Layout data={data.landing} text='Holzbau' color='#5D3D30'>
+    <SEO
+      title='Holzbau | Innovativer Holzbau'
+      description='Aufstockungen, Umbauten, Neubau, Anbau, Ersatzneubau – Wohlgensinger ist Ihr Partner in Sachen Holzbau mit Fokus auf Regionalität und Qualität.'
+    />
     <Container>
       <Background>
         <Left>
           <Img
             fluid={data.one.childImageSharp.fluid}
-            alt="wohlgensinger dachkonstruktion"
+            alt='wohlgensinger dachkonstruktion'
           />
         </Left>
         <Right>
@@ -80,20 +83,20 @@ const Holzbau = ({ data }) => (
         </Right>
       </Background>
       <Grid>
-        <Link to="/holzbau/aufstockung">
-          <Card data={data.card1} title="Aufstockung" />
+        <Link to='/holzbau/aufstockung'>
+          <Card data={data.card1} title='Aufstockung' />
         </Link>
-        <Link to="/holzbau/umbau">
-          <Card data={data.card2} title="Umbau" />
+        <Link to='/holzbau/neubau'>
+          <Card data={data.card3} title='Neubau/Ersatzneubau' />
         </Link>
-        <Link to="/holzbau/neubau">
-          <Card data={data.card3} title="Neubau" />
+        <Link to='/holzbau/umbau'>
+          <Card data={data.card2} title='Umbau' />
         </Link>
-        <Link to="/holzbau/service">
-          <Card data={data.card4} title="Service" />
+        <Link to='/holzbau/service'>
+          <Card data={data.card4} title='Service' />
         </Link>
-        <Link to="/holzbau/anbau">
-          <Card data={data.card5} title="Anbau/Ersatzneubau" />
+        <Link to='/holzbau/anbau'>
+          <Card data={data.card5} title='Anbau' />
         </Link>
       </Grid>
     </Container>

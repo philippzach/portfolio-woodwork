@@ -74,7 +74,7 @@ const PriceBold = styled.span`
   display: block;
 `
 const Price = styled.span`
-  font-family: "Futura";
+  font-family: "Roboto";
   display: block;
 `
 
@@ -82,7 +82,7 @@ export default class subTemplate2 extends Component {
   render() {
     return (
       <div>
-        <Layout data={this.props.header} text="">
+        <Layout data={this.props.header} text=''>
           <SEO
             title={this.props.seoTitle}
             description={this.props.seoDescription}
