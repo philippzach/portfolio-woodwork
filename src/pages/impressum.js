@@ -60,7 +60,7 @@ const Kontakt = ({ data }) => (
         <b>Diese Webseite wird betrieben von:</b>
       </p>
       <p>
-        Wohlgensinger Holzbau | Schreinerei AG <br />
+        Wohlgensinger AG Holzbau | Schreinerei <br />
         Aufeld 10, 9607 Mosnang
         <br />
         Handelsgericht St. Gallen
