@@ -38,12 +38,13 @@ module.exports = {
       options: {
         name: `wohlgensinger-ag`,
         short_name: `Holzbau`,
-        start_url: `https://wohlgensinger.ch/`,
+        start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-     // This path is relative to the root of the site.
+        icon: `static/favicon.png`// This path is relative to the root of the site.
         include_favicon: false,
+        legacy: false,
       },
     },
     {
