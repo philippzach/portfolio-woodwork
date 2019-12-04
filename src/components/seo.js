@@ -97,6 +97,7 @@ function SEO({ description, lang, meta, title }) {
       <script type="application/ld+json">
         {JSON.stringify(schemaOrgWebPage)}
       </script>
+      <link rel="icon" type="image/png" href="https://www.wohlgensinger.ch/favicon.png" />
     </Helmet>
   )
 }
