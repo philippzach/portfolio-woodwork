@@ -15,10 +15,14 @@ function SEO({ description, lang, meta, title }) {
     graphql`
       query {
         site {
+          buildTime
           siteMetadata {
+            siteUrl
+            headline
             title
             description
             author
+            siteLanguage
           }
         }
       }
@@ -26,6 +30,28 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const schemaOrgWebPage = {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    description: "Holzbau & Schreinerei",
+    name: "Wohlgensinger AG",
+    telephone: "+41719831520",
+    email: "info@wohlgensinger.ch",
+    address: {
+      streetAddress: "Aufeld 10",
+      addressLocality: "Mosnang",
+      postalCode: "9607",
+      addressCountry: "CH",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.6",
+      reviewCount: "82",
+    },
+    url: "https://wohlgensinger.ch",
+    datePublished: "2019-11-18T10:30:00+01:00",
+  }
 
   return (
     <Helmet
@@ -68,7 +94,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {JSON.stringify(schemaOrgWebPage)}
+      </script>
+    </Helmet>
   )
 }
 
