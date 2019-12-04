@@ -201,7 +201,7 @@ const Kontakt = ({ data }) => (
             </svg>
           </button>
         </a>
-        <a
+        {/* <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://meetings.hubspot.com/web19"
@@ -282,7 +282,7 @@ const Kontakt = ({ data }) => (
             </svg>
             Rückruf vereinbaren
           </button>
-        </a>
+        </a> */}
       </Buttons>
       <svg
         width="578px"
@@ -333,7 +333,7 @@ const Kontakt = ({ data }) => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://meetings.hubspot.com/web19"
+          href="mailto:andreas.schori@wohlgensinger.ch"
         >
           <button className="meeting">
             <svg

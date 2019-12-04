@@ -464,14 +464,14 @@ const About = ({ data }) => (
           phone=''
           email=''
         />
-        <TeamMember
+     {/*    <TeamMember
           photo={data.team20}
           name='Patrice Jäger'
           jobTitle='Schreiner / Oberflächenspezialist'
           education=''
           phone=''
           email=''
-        />
+        /> */}
         <TeamMember
           photo={data.team21}
           name='Guido Hollenstein'
