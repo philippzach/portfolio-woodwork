@@ -60,6 +60,7 @@ const Copyright = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 `
 const Contact = styled.div`
   @media (max-width: 669px) {
@@ -147,12 +148,13 @@ const Footer = () => (
       </Grid>
       <hr />
       <Copyright>
+      <Link to="/" style={{width: '100%'}} >
         <LogoImg
           style={{ marginBottom: "0" }}
           src={Logo}
           alt="Wohlgensinger AG Logo"
         />
-
+        </Link>
         <span style={{ fontSize: "0.65em" }}>
           © {new Date().getFullYear()}
           {` `}|{` `}

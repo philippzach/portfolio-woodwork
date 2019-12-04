@@ -13,7 +13,16 @@ const GreenBlock = styled.div`
   width: 50%;
   left: 50%;
   top: 300px;
-  @media (max-width: 560px) {
+  @media (max-width: 400px) {
+    top: 66px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    h1 {
+      font-size: 1.6em;
+    }
+  }
+  @media (min-width: 401px) and (max-width: 560px) {
     top: 100px;
     width: 75%;
     left: 12.5%;
