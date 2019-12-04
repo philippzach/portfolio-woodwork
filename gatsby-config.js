@@ -38,7 +38,7 @@ module.exports = {
       options: {
         name: `wohlgensinger-ag`,
         short_name: `Holzbau`,
-        start_url: `https://wohlgensinger.ch`,
+        start_url: `https://wohlgensinger.ch/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
