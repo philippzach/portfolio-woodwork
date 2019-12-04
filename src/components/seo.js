@@ -34,6 +34,7 @@ function SEO({ description, lang, meta, title }) {
   const schemaOrgWebPage = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
+    url: "https://wohlgensinger.ch",
     description: "Holzbau & Schreinerei",
     name: "Wohlgensinger AG",
     telephone: "+41719831520",
@@ -42,15 +43,15 @@ function SEO({ description, lang, meta, title }) {
       streetAddress: "Aufeld 10",
       addressLocality: "Mosnang",
       postalCode: "9607",
-      addressCountry: "CH",
+      addressCountry: "Switzerland",
     },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.6",
       reviewCount: "82",
     },
-    url: "https://wohlgensinger.ch",
-    datePublished: "2019-11-18T10:30:00+01:00",
+    priceRange: "$$",
+    image: "https://wohlgensinger.ch/wohlgensinger.jpg",
   }
 
   return (
