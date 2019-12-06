@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, title }) {
       reviewCount: "82",
     },
     priceRange: "$$",
-    image: "https://wohlgensinger.ch/wohlgensinger.jpg",
+    image: "https://www.wohlgensinger.ch/wohlgensinger.jpg",
   }
 
   return (
