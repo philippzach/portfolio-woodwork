@@ -181,7 +181,7 @@ const Left = () => (
             Möbelstücke mit viel Leidenschaft und handwerklichem Können nach
             individuellen Vorgaben.
           </Paragraph>
-          <Button1 name="Zur Schreinerei" />
+          <Button1 name="Zur Schreinerei" link="/schreinerei" />
         </TextContainer>
         <ImageContainer>
           <AnimationContainer id="imageanimation">

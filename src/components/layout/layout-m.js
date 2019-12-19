@@ -13,7 +13,13 @@ const ColorBox = styled.div`
   width: 60%;
   left: 40%;
   top: 300px;
-  @media (max-width: 560px) {
+  @media (max-width: 350px) {
+    top: 55px;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+  }
+  @media (min-width: 351px) and (max-width: 560px) {
     top: 100px;
     width: 75%;
     left: 12.5%;
@@ -42,6 +48,9 @@ const WhiteText = styled.h1`
   padding: 1em;
   align-items: center;
   display: flex;
+  @media (max-width: 350px) {
+    font-size: 1.5em;
+  }
   @media (max-width: 560px) {
     padding: 0.5em;
   }

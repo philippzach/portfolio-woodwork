@@ -4,7 +4,7 @@ import "./Button1.css"
 
 const Button1 = props => (
   <div>
-    <Link to="/">
+    <Link to={props.link}>
       <span>
         <span className="setup">
           <span className="setupanimationbg">

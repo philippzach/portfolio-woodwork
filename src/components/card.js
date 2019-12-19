@@ -22,6 +22,9 @@ const Heading = styled.h3`
   left: 50%;
   font-size: 2rem;
   transform: translate(-50%, -50%);
+  @media (max-width: 350px) {
+    font-size: 1.3em;
+  }
 `
 
 export default class card extends Component {

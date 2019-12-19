@@ -73,7 +73,7 @@ const Grid = styled.div`
     grid-template-columns: 15% 55% 30%;
     align-items: center;
   }
-  @media (max-width: 719px) {
+  @media (max-width: 829px) {
     display: none;
   }
 `
@@ -83,7 +83,7 @@ const Mobile = styled.div`
   align-items: center;
   padding: 0.45em;
   padding-top: 1, 45em;
-  @media (min-width: 720px) {
+  @media (min-width: 830px) {
     display: none;
   }
 `
@@ -118,7 +118,7 @@ const Cta = styled.div`
 `
 
 const DownArrow = styled.span`
-  @media (max-width: 785px) {
+  @media (max-width: 832px) {
     display: none;
   }
 `
@@ -162,34 +162,34 @@ class NavigationBar extends Component {
           }}
         >
           <Mobile>
-            <Link to='/' style={{ display: "flex" }}>
-              <ML src={MobileLogo} alt='Wohlgensinger Mobile Logo' />
+            <Link to="/" style={{ display: "flex" }}>
+              <ML src={MobileLogo} alt="Wohlgensinger Mobile Logo" />
             </Link>
             <svg
               onClick={() => this.handleMouseDown()}
               onAnimationEnd={() => this.setState({ animate: false })}
               className={this.state.animate ? "animate-pulse" : ""}
-              width='29px'
-              height='29px'
-              viewBox='0 0 29 29'
-              version='1.1'
-              xmlns='http://www.w3.org/2000/svg'
+              width="29px"
+              height="29px"
+              viewBox="0 0 29 29"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <g
-                id='Page-1'
-                stroke='none'
-                stroke-width='1'
-                fill='none'
-                fill-rule='evenodd'
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
               >
                 <g
-                  id='Wohlgensinger-Mobile'
-                  transform='translate(-352.000000, -25.000000)'
-                  fill='#63BF78'
+                  id="Wohlgensinger-Mobile"
+                  transform="translate(-352.000000, -25.000000)"
+                  fill="#63BF78"
                 >
                   <path
-                    d='M366.5,50.375 C360.494281,50.375 355.625,45.506625 355.625,39.5 C355.625,33.493375 360.494281,28.625 366.5,28.625 C372.505719,28.625 377.375,33.493375 377.375,39.5 C377.375,45.506625 372.505719,50.375 366.5,50.375 M366.5,25 C358.492375,25 352,31.4914687 352,39.5 C352,47.507625 358.492375,54 366.5,54 C374.507625,54 381,47.507625 381,39.5 C381,31.4914687 374.507625,25 366.5,25'
-                    id='3'
+                    d="M366.5,50.375 C360.494281,50.375 355.625,45.506625 355.625,39.5 C355.625,33.493375 360.494281,28.625 366.5,28.625 C372.505719,28.625 377.375,33.493375 377.375,39.5 C377.375,45.506625 372.505719,50.375 366.5,50.375 M366.5,25 C358.492375,25 352,31.4914687 352,39.5 C352,47.507625 358.492375,54 366.5,54 C374.507625,54 381,47.507625 381,39.5 C381,31.4914687 374.507625,25 366.5,25"
+                    id="3"
                   ></path>
                 </g>
               </g>
@@ -197,71 +197,71 @@ class NavigationBar extends Component {
           </Mobile>
 
           <Grid>
-            <Link to='/'>
+            <Link to="/">
               <LogoImg
                 src={Logo}
-                alt='Wohlgensinger AG Logo'
-                className='logo'
+                alt="Wohlgensinger AG Logo"
+                className="logo"
               />
             </Link>
             <List>
-              <li className='firstli' style={{ margin: 0 }}>
+              <li className="firstli" style={{ margin: 0 }}>
                 <Link
-                  to='/holzbau'
+                  to="/holzbau"
                   style={{
                     textDecoration: `none`,
                   }}
                 >
                   Holzbau <DownArrow>&#9662;</DownArrow>
                 </Link>
-                <ul className='secondul'>
-                  <Link to='/holzbau/aufstockung'>
+                <ul className="secondul">
+                  <Link to="/holzbau/aufstockung">
                     <li>Aufstockung</li>
                   </Link>
-                  <Link to='/holzbau/umbau'>
+                  <Link to="/holzbau/umbau">
                     <li>Umbau</li>
                   </Link>
-                  <Link to='/holzbau/anbau'>
+                  <Link to="/holzbau/anbau">
                     <li>Anbau</li>
                   </Link>
-                  <Link to='/holzbau/neubau'>
+                  <Link to="/holzbau/neubau">
                     <li>Neubau | Ersatzneubau</li>
                   </Link>
-                  <Link to='/holzbau/service'>
+                  <Link to="/holzbau/service">
                     <li>Service</li>
                   </Link>
                 </ul>
               </li>
-              <li className='firstli' style={{ margin: 0 }}>
+              <li className="firstli" style={{ margin: 0 }}>
                 <Link
-                  to='/schreinerei'
+                  to="/schreinerei"
                   style={{
                     textDecoration: `none`,
                   }}
                 >
                   Schreinerei <DownArrow>&#9662;</DownArrow>
                 </Link>
-                <ul className='secondul'>
-                  <Link to='/schreinerei/tueren'>
+                <ul className="secondul">
+                  <Link to="/schreinerei/tueren">
                     <li>Türen</li>
                   </Link>
-                  <Link to='/schreinerei/treppen'>
+                  <Link to="/schreinerei/treppen">
                     <li>Treppen</li>
                   </Link>
-                  <Link to='/schreinerei/schraenke'>
+                  <Link to="/schreinerei/schraenke">
                     <li>Schränke</li>
                   </Link>
-                  <Link to='/schreinerei/moebel-weingestell'>
+                  <Link to="/schreinerei/moebel-weingestell">
                     <li>Weingestell | Möbel</li>
                   </Link>
-                  <Link to='/schreinerei/reparaturen'>
+                  <Link to="/schreinerei/reparaturen">
                     <li>Reparaturen</li>
                   </Link>
                 </ul>
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to='/services'
+                  to="/services"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -271,7 +271,7 @@ class NavigationBar extends Component {
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to='/ueber-uns'
+                  to="/ueber-uns"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -281,7 +281,7 @@ class NavigationBar extends Component {
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to='/blog'
+                  to="/blog"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -291,7 +291,7 @@ class NavigationBar extends Component {
               </li>
               <li style={{ margin: 0 }}>
                 <Link
-                  to='/kontakt'
+                  to="/kontakt"
                   style={{
                     textDecoration: `none`,
                   }}
@@ -301,11 +301,11 @@ class NavigationBar extends Component {
               </li>
             </List>
             <Cta>
-              <img src={Line} alt='Seperator line' />
-              <Link to='/kontakt' style={{ padding: "0 1vw" }}>
+              <img src={Line} alt="Seperator line" />
+              <Link to="/kontakt" style={{ padding: "0 1vw" }}>
                 +41 (0)71 983 15 20
               </Link>
-              <img src={Phone} alt='Phone Icon' />
+              <img src={Phone} alt="Phone Icon" />
             </Cta>
           </Grid>
         </Navigation>
@@ -316,7 +316,7 @@ class NavigationBar extends Component {
           <MobileContainer>
             <MobileList>
               <Link
-                to='/holzbau'
+                to="/holzbau"
                 style={{
                   textDecoration: `none`,
                 }}
@@ -324,7 +324,7 @@ class NavigationBar extends Component {
                 Holzbau
               </Link>
               <Link
-                to='/schreinerei'
+                to="/schreinerei"
                 style={{
                   textDecoration: `none`,
                 }}
@@ -332,7 +332,7 @@ class NavigationBar extends Component {
                 Schreinerei
               </Link>
               <Link
-                to='/services'
+                to="/services"
                 style={{
                   textDecoration: `none`,
                 }}
@@ -340,7 +340,7 @@ class NavigationBar extends Component {
                 Services
               </Link>
               <Link
-                to='/ueber-uns'
+                to="/ueber-uns"
                 style={{
                   textDecoration: `none`,
                 }}
@@ -348,7 +348,7 @@ class NavigationBar extends Component {
                 Über Uns
               </Link>
               <Link
-                to='/blog'
+                to="/blog"
                 style={{
                   textDecoration: `none`,
                 }}
@@ -356,7 +356,7 @@ class NavigationBar extends Component {
                 News & Blog
               </Link>
               <Link
-                to='/kontakt'
+                to="/kontakt"
                 style={{
                   textDecoration: `none`,
                 }}

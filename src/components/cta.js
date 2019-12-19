@@ -19,9 +19,9 @@ const Cta = () => (
   <Container>
     <Heading>Jetzt unverbindlich mit uns austauschen.</Heading>
     <Paragraph>Telefonat oder Meeting vereinbaren</Paragraph>
-    <Link to="/kontakt">
+    <a href="mailto:info@wohlgensinger.ch">
       <button className="mainbutton">Kontaktieren Sie uns!</button>
-    </Link>
+    </a>
   </Container>
 )
 

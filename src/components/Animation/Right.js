@@ -210,7 +210,7 @@ export default class Left extends Component {
                 entsprechend zuverlässig und mit viel Gespür für den lebendigen
                 Rohstoff Holz.
               </Paragraph>
-              <Button1 name="Zum Holzbau" />
+              <Button1 name="Zum Holzbau" link="/holzbau" />
             </TextContainer>
           </BackgroundContainer>
         </BoxContainer>

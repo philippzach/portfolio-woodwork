@@ -15,6 +15,10 @@ const Container = styled.div`
     padding: 0 3em;
   }
 `
+const ContainerText = styled.div`
+  max-width: 1050px;
+  margin: 0 auto;
+`
 
 const FiftyContainer = styled.div`
   display: flex;
@@ -110,7 +114,7 @@ const Services = ({ data }) => (
           </Paragraph>
         </FiftyFlexCenterTextTop>
       </FiftyContainer>
-      <Container>
+      <ContainerText>
         <Spacer />
         <FiftyContainer>
           <FiftyFlexCenterText>
@@ -176,7 +180,7 @@ const Services = ({ data }) => (
             />
           </Fifty>
         </FiftyContainer>
-      </Container>
+      </ContainerText>
     </Container>
     <Cta />
   </Layout>
