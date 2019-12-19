@@ -91,7 +91,7 @@ const Schreinerei = ({ data }) => (
           <Card data={data.card4} title="Reparaturen" />
         </Link>
         <Link to="/schreinerei/moebel-weingestell">
-          <Card data={data.card5} title="Möbel/Weingestell" />
+          <Card data={data.card5} title="Möbel / Weingestell" />
         </Link>
       </Grid>
     </Container>

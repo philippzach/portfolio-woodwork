@@ -87,7 +87,7 @@ const Holzbau = ({ data }) => (
           <Card data={data.card1} title="Aufstockung" />
         </Link>
         <Link to="/holzbau/neubau">
-          <Card data={data.card3} title="Neubau/Ersatzneubau" />
+          <Card data={data.card3} title="Neubau / Ersatzneubau" />
         </Link>
         <Link to="/holzbau/anbau">
           <Card data={data.card5} title="Anbau" />
