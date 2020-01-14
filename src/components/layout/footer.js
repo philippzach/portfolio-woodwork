@@ -157,7 +157,8 @@ const Footer = () => (
         </Link>
         <span style={{ fontSize: "0.65em" }}>
           © {new Date().getFullYear()}
-          <br />Wohlgensinger AG
+          {' '}{' '}
+          Wohlgensinger AG
         </span>
       </Copyright>
     </Container>
