@@ -118,7 +118,7 @@ const Services = ({ data }) => (
         <Spacer />
         <FiftyContainer>
           <FiftyFlexCenterText>
-            <Heading>Konzipierung / Baueingabe</Heading>
+            <Heading>Konzept / Baueingabe</Heading>
             <Paragraph>
               Gemeinsam mit Ihnen erarbeiten wir die Pläne für Ihr Bauvorhaben,
               egal, ob Sie ein neues Haus bauen wollen oder einen Umbau
@@ -148,7 +148,7 @@ const Services = ({ data }) => (
             />
           </Fifty>
           <FiftyFlexCenterText>
-            <Heading>Projektleitung / Bauleitung</Heading>
+            <Heading>Projekt- / Bauleitung</Heading>
             <Paragraph>
               Auf Basis der Baueingabepläne stellen wir für Sie sämtliche
               Offerte für alle Handwerker zusammen. Bei der Auswahl der
