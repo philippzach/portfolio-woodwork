@@ -128,7 +128,7 @@ const Footer = () => (
           <Spacer />
           <Span>
             Telefon{" "}
-            <a href="tel:+410719831520">
+            <a href="tel:+41719831520">
               <b style={{ fontSize: "13px" }}>+41 (0)71 983 15 20</b>
             </a>
           </Span>
@@ -157,7 +157,7 @@ const Footer = () => (
         </Link>
         <span style={{ fontSize: "0.65em" }}>
           © {new Date().getFullYear()}
-          {` `}|{` `}
+          {' '}{' '}
           Wohlgensinger AG
         </span>
       </Copyright>
