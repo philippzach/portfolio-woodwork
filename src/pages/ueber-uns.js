@@ -106,10 +106,10 @@ const Grid = styled.div`
 `
 
 const About = ({ data }) => (
-  <Layout data={data.landingSmall} text=''>
+  <Layout data={data.landingSmall} text="">
     <SEO
-      title='Holzbau & Schreinerei | Über uns'
-      description='Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch.'
+      title="Holzbau & Schreinerei | Über uns"
+      description="Wir beraten, planen und bauen für Sie so, als ob wir unser eigenes Haus bauen würden: kompetent, innovativ und ästhetisch."
     />
     <Container>
       <Spacer />
@@ -117,7 +117,7 @@ const About = ({ data }) => (
         <FiftyTop>
           <Img
             fluid={data.top.childImageSharp.fluid}
-            alt='wohlgensinger holzbau services planung'
+            alt="wohlgensinger holzbau services planung"
           />
         </FiftyTop>
         <FiftyFlexCenterTextTop>
@@ -166,7 +166,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about1.childImageSharp.fluid}
-            alt='Ueber uns Wohngensinger Ag'
+            alt="Ueber uns Wohngensinger Ag"
           />
         </Fifty>
         <FiftyFlexCenterText>
@@ -198,7 +198,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about2.childImageSharp.fluid}
-            alt='wohlgensinger holzbau services planung'
+            alt="wohlgensinger holzbau services planung"
           />
         </Fifty>
       </FiftyContainer>
@@ -207,7 +207,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about3.childImageSharp.fluid}
-            alt='Ueber uns Wohngensinger Ag'
+            alt="Ueber uns Wohngensinger Ag"
           />
         </Fifty>
         <FiftyFlexCenterText>
@@ -235,7 +235,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about4.childImageSharp.fluid}
-            alt='wohlgensinger holzbau services planung'
+            alt="wohlgensinger holzbau services planung"
           />
         </Fifty>
       </FiftyContainer>
@@ -244,7 +244,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about5.childImageSharp.fluid}
-            alt='Ueber uns Wohngensinger Ag'
+            alt="Ueber uns Wohngensinger Ag"
           />
         </Fifty>
         <FiftyFlexCenterText>
@@ -270,7 +270,7 @@ const About = ({ data }) => (
         <Fifty>
           <Img
             fluid={data.about6.childImageSharp.fluid}
-            alt='wohlgensinger holzbau services planung'
+            alt="wohlgensinger holzbau services planung"
           />
         </Fifty>
       </FiftyContainer>
@@ -278,27 +278,27 @@ const About = ({ data }) => (
     </Container>
     <ContainerTeam>
       <svg
-        width='27px'
-        height='27px'
-        viewBox='0 0 27 27'
-        version='1.1'
-        xmlns='http://www.w3.org/2000/svg'
+        width="27px"
+        height="27px"
+        viewBox="0 0 27 27"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <g
-          id='Page-1'
-          stroke='none'
-          stroke-width='1'
-          fill='none'
-          fill-rule='evenodd'
+          id="Page-1"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd"
         >
           <g
-            id='Uber-Uns'
-            transform='translate(-231.000000, -5383.000000)'
-            fill='#404040'
+            id="Uber-Uns"
+            transform="translate(-231.000000, -5383.000000)"
+            fill="#404040"
           >
             <path
-              d='M244.5,5406.625 C238.908469,5406.625 234.375,5402.09238 234.375,5396.5 C234.375,5390.90762 238.908469,5386.375 244.5,5386.375 C250.091531,5386.375 254.625,5390.90762 254.625,5396.5 C254.625,5402.09238 250.091531,5406.625 244.5,5406.625 M244.5,5383 C237.044625,5383 231,5389.04378 231,5396.5 C231,5403.95537 237.044625,5410 244.5,5410 C251.955375,5410 258,5403.95537 258,5396.5 C258,5389.04378 251.955375,5383 244.5,5383'
-              id='3'
+              d="M244.5,5406.625 C238.908469,5406.625 234.375,5402.09238 234.375,5396.5 C234.375,5390.90762 238.908469,5386.375 244.5,5386.375 C250.091531,5386.375 254.625,5390.90762 254.625,5396.5 C254.625,5402.09238 250.091531,5406.625 244.5,5406.625 M244.5,5383 C237.044625,5383 231,5389.04378 231,5396.5 C231,5403.95537 237.044625,5410 244.5,5410 C251.955375,5410 258,5403.95537 258,5396.5 C258,5389.04378 251.955375,5383 244.5,5383"
+              id="3"
             ></path>
           </g>
         </g>
@@ -314,157 +314,157 @@ const About = ({ data }) => (
       <Grid>
         <TeamMember
           photo={data.team1}
-          name='Simon Rutz'
-          jobTitle='Geschäftsführer | Inhaber'
-          education='Dipl. Holzingenieur FH'
-          phone=''
-          email=''
+          name="Simon Rutz"
+          jobTitle="Geschäftsführer | Inhaber"
+          education="Dipl. Holzingenieur FH"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team2}
-          name='Carmen Rutz'
-          jobTitle='Marketing | Personal'
-          education=''
-          phone=''
-          email=''
+          name="Carmen Rutz"
+          jobTitle="Marketing | Personal"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team3}
-          name='Werner Rütsche'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Werner Rütsche"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team4}
-          name='Jakob Frey'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Jakob Frey"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team5}
-          name='Luc Baumann'
-          jobTitle='Zimmermann EFZ i. A. 3. Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Luc Baumann"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team6}
-          name='Marco Bürge'
-          jobTitle='Zimmermann EFZ i. A. 3. Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Marco Bürge"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team7}
-          name='Alfred Stillhart'
-          jobTitle='Holzbau-Arbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Alfred Stillhart"
+          jobTitle="Holzbau-Arbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team8}
-          name='Reto Breitenmoser'
-          jobTitle='Zimmermann EFZ'
-          education=''
-          phone=''
-          email=''
+          name="Reto Breitenmoser"
+          jobTitle="Zimmermann EFZ"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team9}
-          name='Jeremy Sennhauser'
-          jobTitle='Zimmermann EFZ'
-          education=''
-          phone=''
-          email=''
+          name="Jeremy Sennhauser"
+          jobTitle="Zimmermann EFZ"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team10}
-          name='Fabio Schefer'
-          jobTitle='Zimmermann EFZ i. A. 4. Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Fabio Schefer"
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team11}
-          name='Norbert Schönenberger'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Norbert Schönenberger"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team12}
-          name='Adrian Oberholzer'
-          jobTitle='Zimmermann EFZ i. A. 3. Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Adrian Oberholzer"
+          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team13}
-          name='Gianandré Bachmann'
-          jobTitle='Schreiner / Zimmermann EFZ'
-          education=''
-          phone=''
-          email=''
+          name="Gianandré Bachmann"
+          jobTitle="Schreiner / Zimmermann EFZ"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team14}
-          name='Erwin Bachmann'
-          jobTitle='Planung & Projektleitung'
-          education='Holzbau - Polier'
-          phone=''
-          email=''
+          name="Erwin Bachmann"
+          jobTitle="Planung & Projektleitung"
+          education="Holzbau - Polier"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team15}
-          name='Sandro Loser'
-          jobTitle='Zimmermann EFZ i. A. 1 Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Sandro Loser"
+          jobTitle="Zimmermann EFZ i. A. 1 Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team16}
-          name='Fridolin Schönenberger'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Fridolin Schönenberger"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
-        <TeamMember
+        {/*   <TeamMember
           photo={data.team17}
           name='Andreas Schori'
           jobTitle='Verkaufs- / Projektleiter'
           education='Bauleiter'
           phone=''
           email=''
-        />
+        /> */}
         <TeamMember
           photo={data.team18}
-          name='Thomas Gmür'
-          jobTitle='Schreiner-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Thomas Gmür"
+          jobTitle="Schreiner-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team19}
-          name='Patrick Rüthemann'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Patrick Rüthemann"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
-     {/*    <TeamMember
+        {/*    <TeamMember
           photo={data.team20}
           name='Patrice Jäger'
           jobTitle='Schreiner / Oberflächenspezialist'
@@ -474,147 +474,147 @@ const About = ({ data }) => (
         /> */}
         <TeamMember
           photo={data.team21}
-          name='Guido Hollenstein'
-          jobTitle='Holzbau-Arbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Guido Hollenstein"
+          jobTitle="Holzbau-Arbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team22}
-          name='Ernst Aemisegger'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Ernst Aemisegger"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team23}
-          name=' Peter Schnetzer'
-          jobTitle='Planung & Projektleitung'
-          education='Holzbau - Polier'
-          phone=''
-          email=''
+          name=" Peter Schnetzer"
+          jobTitle="Planung & Projektleitung"
+          education="Holzbau - Polier"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team24}
-          name='Florian Senn'
-          jobTitle='Planung & Projektleitung'
-          education='Holzbau - Vorarbeiter'
-          phone=''
-          email=''
+          name="Florian Senn"
+          jobTitle="Planung & Projektleitung"
+          education="Holzbau - Vorarbeiter"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team25}
-          name='Yvonne Schmitz'
-          jobTitle='Administration / Buchhaltung'
-          education=''
-          phone=''
-          email=''
+          name="Yvonne Schmitz"
+          jobTitle="Administration / Buchhaltung"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team26}
-          name='Nil Meile'
-          jobTitle='Zimmermann EFZ i.A.2.Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Nil Meile"
+          jobTitle="Zimmermann EFZ i.A.2.Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team27}
-          name='Raphael Löhrer'
-          jobTitle='Zimmermann EFZ'
-          education=''
-          phone=''
-          email=''
+          name="Raphael Löhrer"
+          jobTitle="Zimmermann EFZ"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team28}
-          name='Reto Loser'
-          jobTitle='Zimmermann EFZ i.A.2.Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Reto Loser"
+          jobTitle="Zimmermann EFZ i.A.2.Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team29}
-          name='Lorin Rüegg'
-          jobTitle='Zimmermann EFZ i.A.1.Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Lorin Rüegg"
+          jobTitle="Zimmermann EFZ i.A.1.Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team30}
-          name='Rösli Schönenberger'
-          jobTitle='Facilitymanagement'
-          education=''
-          phone=''
-          email=''
+          name="Rösli Schönenberger"
+          jobTitle="Facilitymanagement"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team31}
-          name='Fabian Rutz'
-          jobTitle='Planung & Projektleitung'
-          education='Holzbauingenieur BSc FH'
-          phone=''
-          email=''
+          name="Fabian Rutz"
+          jobTitle="Planung & Projektleitung"
+          education="Holzbauingenieur BSc FH"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team32}
-          name='Julian Meier'
-          jobTitle='Zimmermann EFZ i. A. 4. Lj.'
-          education=''
-          phone=''
-          email=''
+          name="Julian Meier"
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team33}
-          name='Damian Schönenberger'
-          jobTitle='Holzbearbeiter EBA'
-          education=''
-          phone=''
-          email=''
+          name="Damian Schönenberger"
+          jobTitle="Holzbearbeiter EBA"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team34}
-          name='Markus Rüegg'
-          jobTitle='Schreiner-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Markus Rüegg"
+          jobTitle="Schreiner-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team35}
-          name='Beat Strassmann'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Beat Strassmann"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team36}
-          name='Martin Widmer'
-          jobTitle='Holzbau-Vorarbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Martin Widmer"
+          jobTitle="Holzbau-Vorarbeiter"
+          education=""
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team37}
-          name='Damian Büsser'
-          jobTitle='Planung & Projektleitung'
-          education='Holzbau – Techniker HF'
-          phone=''
-          email=''
+          name="Damian Büsser"
+          jobTitle="Planung & Projektleitung"
+          education="Holzbau – Techniker HF"
+          phone=""
+          email=""
         />
         <TeamMember
           photo={data.team38}
-          name='Niklaus Bürge'
-          jobTitle='Magaziner / Holzbearbeiter'
-          education=''
-          phone=''
-          email=''
+          name="Niklaus Bürge"
+          jobTitle="Magaziner / Holzbearbeiter"
+          education=""
+          phone=""
+          email=""
         />
       </Grid>
       <Spacer />
