@@ -376,14 +376,14 @@ const About = ({ data }) => (
           phone=""
           email=""
         />
-        <TeamMember
+        {/*  <TeamMember
           photo={data.team9}
           name="Jeremy Sennhauser"
           jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
-        />
+        /> */}
         <TeamMember
           photo={data.team10}
           name="Fabio Schefer"
@@ -411,7 +411,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team13}
           name="Gianandré Bachmann"
-          jobTitle="Schreiner / Zimmermann EFZ"
+          jobTitle="Schreiner – Vorarbeiter"
           education=""
           phone=""
           email=""
