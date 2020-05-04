@@ -82,7 +82,7 @@ export default class subTemplate2 extends Component {
   render() {
     return (
       <div>
-        <Layout data={this.props.header} text=''>
+        <Layout data={this.props.header} text="">
           <SEO
             title={this.props.seoTitle}
             description={this.props.seoDescription}
@@ -119,10 +119,10 @@ export default class subTemplate2 extends Component {
                   <PriceBold>{this.props.weingestell1}</PriceBold>
                   <Price>{this.props.preis1}</Price>
                 </Paragraph>
-                <Paragraph>
+                {/*  <Paragraph>
                   <PriceBold>{this.props.weingestell2}</PriceBold>
                   <Price>{this.props.preis2}</Price>
-                </Paragraph>
+                </Paragraph> */}
                 <Paragraph style={{ fontStyle: "italic" }}>
                   {this.props.groesse}
                 </Paragraph>
