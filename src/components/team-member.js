@@ -34,10 +34,10 @@ class team extends Component {
         <Name>{this.props.name}</Name>
         <Title>
           <p>{this.props.jobTitle}</p>
-          <p>{this.props.education}</p>
+          {/*  <p>{this.props.education}</p> */}
         </Title>
-        <Phone>{this.props.phone}</Phone>
-        <Email>{this.props.email}</Email>
+        {/*   <Phone>{this.props.phone}</Phone>
+        <Email>{this.props.email}</Email> */}
       </div>
     )
   }

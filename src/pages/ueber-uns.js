@@ -347,7 +347,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team5}
           name="Luc Baumann"
-          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
           education=""
           phone=""
           email=""
@@ -355,7 +355,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team6}
           name="Marco Bürge"
-          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
           education=""
           phone=""
           email=""
@@ -387,7 +387,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team10}
           name="Fabio Schefer"
-          jobTitle="Zimmermann EFZ i. A. 4. Lj."
+          jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -403,19 +403,12 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team12}
           name="Adrian Oberholzer"
-          jobTitle="Zimmermann EFZ i. A. 3. Lj."
+          jobTitle="Zimmermann EFZ i. A. 4. Lj."
           education=""
           phone=""
           email=""
         />
-        <TeamMember
-          photo={data.team13}
-          name="Gianandré Bachmann"
-          jobTitle="Schreiner – Vorarbeiter"
-          education=""
-          phone=""
-          email=""
-        />
+
         <TeamMember
           photo={data.team14}
           name="Erwin Bachmann"
@@ -427,7 +420,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team15}
           name="Sandro Loser"
-          jobTitle="Zimmermann EFZ i. A. 1 Lj."
+          jobTitle="Zimmermann EFZ i. A. 2 Lj."
           education=""
           phone=""
           email=""
@@ -515,23 +508,16 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team26}
           name="Nil Meile"
-          jobTitle="Zimmermann EFZ i.A.2.Lj."
+          jobTitle="Zimmermann EFZ i.A.3.Lj."
           education=""
           phone=""
           email=""
         />
-        <TeamMember
-          photo={data.team27}
-          name="Raphael Löhrer"
-          jobTitle="Zimmermann EFZ"
-          education=""
-          phone=""
-          email=""
-        />
+
         <TeamMember
           photo={data.team28}
           name="Reto Loser"
-          jobTitle="Zimmermann EFZ i.A.2.Lj."
+          jobTitle="Zimmermann EFZ i.A.3.Lj."
           education=""
           phone=""
           email=""
@@ -539,7 +525,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team29}
           name="Lorin Rüegg"
-          jobTitle="Zimmermann EFZ i.A.1.Lj."
+          jobTitle="Zimmermann EFZ i.A.2.Lj."
           education=""
           phone=""
           email=""
@@ -563,7 +549,7 @@ const About = ({ data }) => (
         <TeamMember
           photo={data.team32}
           name="Julian Meier"
-          jobTitle="Zimmermann EFZ i. A. 4. Lj."
+          jobTitle="Zimmermann EFZ"
           education=""
           phone=""
           email=""
@@ -601,17 +587,58 @@ const About = ({ data }) => (
           email=""
         />
         <TeamMember
-          photo={data.team37}
-          name="Damian Büsser"
-          jobTitle="Planung & Projektleitung"
-          education="Holzbau – Techniker HF"
+          photo={data.leonie}
+          name="Leonie Näf"
+          jobTitle="Schreinerin EFZ i.A. 1.Lj."
+          education=""
           phone=""
           email=""
         />
         <TeamMember
-          photo={data.team38}
-          name="Niklaus Bürge"
-          jobTitle="Magaziner / Holzbearbeiter"
+          photo={data.tobias}
+          name="Tobias Heim"
+          jobTitle="Zimmermann EFZ i.A. 1.Lj."
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.fabio}
+          name="Fabio Mannhart"
+          jobTitle="Zimmermann EFZ i.A. 1.Lj."
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.niclas}
+          name="Niclas Dupont"
+          jobTitle="Schreiner EFZ i.A. 2.Lj."
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.damian}
+          name="Damian Hollenstein"
+          jobTitle="Zimmermann EFZ"
+          education=""
+          phone=""
+          email=""
+        />
+        <TeamMember
+          photo={data.markus}
+          name="Markus Schönenberger"
+          jobTitle="Magaziner"
+          education=""
+          phone=""
+          email=""
+        />
+
+        <TeamMember
+          photo={data.marion}
+          name="Marion Wohlgensinger"
+          jobTitle="Marketing"
           education=""
           phone=""
           email=""
@@ -1077,6 +1104,76 @@ export const query = graphql`
       }
     }
     team38: file(relativePath: { eq: "team/team38.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    leonie: file(relativePath: { eq: "team/Leonie.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    tobias: file(relativePath: { eq: "team/Tobias.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    fabio: file(relativePath: { eq: "team/Fabio.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    niclas: file(relativePath: { eq: "team/Niclas.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    damian: file(relativePath: { eq: "team/Damian.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    markus: file(relativePath: { eq: "team/Markus.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxHeight: 540
+          traceSVG: { background: "#ffff", color: "#4f52" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    marion: file(relativePath: { eq: "team/Marion.jpg" }) {
       childImageSharp {
         fluid(
           maxHeight: 540
